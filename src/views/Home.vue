@@ -1,27 +1,25 @@
 <template>
   <div>
-    <section
-      id="home"
-      class="flex justify-center items-center space-x-44 p-12 mx-auto">
-      <div class="flex-1 flex flex-col space-y-4">
+    <section id="home" class="flex justify-center items-center space-x-44 p-12 mx-auto">
+      <div class="flex-1 flex flex-col space-y-4 2xl:space-y-8">
         <div>
-          <h2 class="text-2xl focus-in-expand">
+          <h2 class="2xl:text-4xl text-2xl focus-in-expand whitespace-nowrap">
             Hi 👋🏼! I'am
-            <span class="text-yellow-600 text-4xl tracking-normal font-extrabold focus-in-expand">Amzil Houdaifa</span>
+            <span class="text-yellow-600 2xl:text-5xl text-4xl tracking-normal font-extrabold focus-in-expand whitespace-nowrap">Amzil Houdaifa</span>
           </h2>
         </div>
         <div>
           <typical
-            class="typicalWrapper text-2xl text-justify text-gray-500 leading-relaxed"
+            class="typicalWrapper 2xl:text-3xl text-2xl md:text-xl text-justify text-gray-500 leading-relaxed 2xl:leading-loose"
             :steps="[
-              'Lorem ipsum dolor sit amet consectetur adipisicing elit.Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
+              'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
               200,
             ]"
             :wrapper="'h6'"
           >
           </typical>
         </div>
-        <div class="flex space-x-10 text-4xl slit-in-diagonal-1">
+        <div class="flex space-x-10 xl:text-6xl text-4xl slit-in-diagonal-1">
           <div>
             <a href="#" target="_blank"><i class="fab fa-linkedin hover:text-yellow-500"></i></a>
           </div>
@@ -37,18 +35,18 @@
         </div>
       </div>
       <div class="flex-1">
-        <img class="md:w-5/6 slit-in-diagonal-1 rounded" src="../assets/me.jpg" alt="Me"/>
+        <img class="w-full slit-in-diagonal-1 rounded" src="../assets/me.jpg" alt="Me"/>
       </div>
     </section>
-    <div class="flex justify-center items-center animate-bounce text-2xl text-gray-500 py-4">
+    <div class="flex justify-center items-center animate-bounce text-2xl text-gray-500 py-4 2xl:pt-32">
       <div><a href="#skills"><i class="fas fa-arrow-down"></i></a></div>
     </div>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-32">
+    <section id="skills" class="py-32 2xl:py-64">
       <div>
-        <h1 class="text-center pb-20 text-6xl font-extrabold">I can work with...</h1>
-          <carousel :per-page="4" :mouse-drag="false" :autoplay="true" :paginationSize="0" :loop="true" :speed="8000" :mouseDrag="true" :scrollPerPage="false" :autoplayTimeout="3000">
+        <h1 class="text-center pb-20 text-6xl font-extrabold">I like to work with...</h1>
+          <carousel :per-page="4" :mouse-drag="false" :autoplay="true" :paginationSize="0" :loop="true" :speed="1500" :mouseDrag="true">
             <slide v-for="(skill, index) in skills" :key="index">
               <div class="rounded-full flex flex-col items-center justify-center bg-white p-8 w-52 h-52 space-y-6 cursor-pointer">
                 <img class="w-1/2" :src="skill.image"/>

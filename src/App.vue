@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="bg-gray-50">
      <div class="container mx-auto px-12 p-4 pt-6">
-        <nav class="flex justify-between items-center text-gray-700 text-base pb-8">
+        <nav class="flex justify-between items-center text-gray-700 xl:text-xl text-base pb-8 xl:pb-12">
           <div>
             <h1 style="font-family: 'Fuggles', cursive;" class="text-6xl tracking-wider font-extralight">Amzil Houdaifa</h1>
           </div>
