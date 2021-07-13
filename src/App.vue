@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="bg-gray-50">
+  <div id="app" class="bg-gray-50 text-gray-800">
     <div class="container mx-auto px-12 p-4 pt-6">
       <v-navbar />
       <router-view />

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center pb-20 text-5xl font-extrabold">
+    <h1 class="text-center text-gray-800 pb-20 text-5xl font-extrabold">
       {{$t('iwork')}}
     </h1>
     <carousel

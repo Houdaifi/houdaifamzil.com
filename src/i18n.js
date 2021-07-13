@@ -7,7 +7,9 @@ const messages = {
     'en': {
         Hello: "Hi 👋🏼! I'am",
         myName: 'Houdaifa Amzil',
-        Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
+        job: 'A Junior Full Stack Developer',
+        Aboutme: '5 years ago i started to write my first lines of code, starting by learning native Android app developement to Flutter, where i made several apps for local companies and for Play Store.'+
+                ' Recently i had the opportunity to join a great team of developers on my first full time job, where i become more concentrated on Web Developement.',
         iwork: 'I love to work with...',
 
         Based: "I'm based in",

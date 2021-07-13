@@ -5,20 +5,23 @@
         <div>
           <h2 class="2xl:text-2xl text-2xl focus-in-expand whitespace-nowrap">
             {{$t('Hello')}}
-            <span class="text-fakhti 2xl:text-4xl text-3xl tracking-normal font-extrabold focus-in-expand whitespace-nowrap hover:text-turquoise">{{$t('myName')}}</span>
+            <span class="text-fakhti 2xl:text-4xl text-3xl tracking-normal font-bold focus-in-expand whitespace-nowrap hover:text-turquoise">{{$t('myName')}}</span>
           </h2>
         </div>
         <div>
+          <h1 class="text-turquoise 2xl:text-6xl text-5xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
+        </div>
+        <div>
           <typical v-if="isTranslated"
-            class="typicalWrapper md:text-2xl text-justify text-gray-500 xl:leading-loose"
+            class="typicalWrapper md:text-2xl text-justify text-gray-500 xl:leading-normal"
             :steps="[$t('Aboutme'),200]"
             :wrapper="'h6'"
           >
           </typical>
-          <p v-else class="md:text-2xl text-justify text-gray-500 xl:leading-loose">{{$t('Aboutme')}}</p>
+          <p v-else class="md:text-2xl text-justify text-gray-500 xl:leading-normal">{{$t('Aboutme')}}</p>
         </div>
         <div>
-          <h3 class="text-gray-500 md:text-2xl">{{ $t('Based') }} <span>{{ $t('city') }} <flag class="text-xl" iso="ma" /></span></h3>
+          <!-- <h3 class="text-gray-500 md:text-2xl">{{ $t('Based') }} <span>{{ $t('city') }} <flag class="text-xl" iso="ma" /></span></h3> -->
         </div>
         <!-- Social media icons -->
         <v-links/>
