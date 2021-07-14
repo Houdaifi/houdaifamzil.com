@@ -1,5 +1,5 @@
 <template>
-  <div class="flex space-x-10 2xl:text-4xl text-2xl slit-in-diagonal-1">
+  <div class="flex space-x-10 2xl:text-4xl text-3xl slit-in-diagonal-1">
     <div>
       <a href="https://twitter.com/H_amzil14" target="_blank"
         ><i class="fab fa-twitter-square text-gray-800 hover:text-turquoise"></i

@@ -7,47 +7,63 @@ const messages = {
     'en': {
         Hello: "Hi 👋🏼! I'am",
         myName: 'Houdaifa Amzil',
-        job: 'A Junior Full Stack Developer',
-        Aboutme: '5 years ago i started to write my first lines of code, starting by learning native Android app developement to Flutter, where i made several apps for local companies and for Play Store.'+
+        job: 'Junior Full Stack Developer',
+        Aboutme: 'I started to write my first lines of code 5 years ago, starting by learning native Android app developement to Flutter, where i made several apps for local companies and for Play Store.'+
                 ' Recently i had the opportunity to join a great team of developers on my first full time job, where i become more concentrated on Web Developement.',
         iwork: 'I love to work with...',
+        Myprojects: 'Some of my projects...',
+        seeResume: 'View Resume',
 
-        Based: "I'm based in",
-        city: 'Tangier, Morocco'
+        city: 'Tangier, Morocco',
+        SeeMore: 'View More'
     },
     'fr': {
         Skills: 'Compétences',
         Projects: 'Projets ',
         Resume: 'CV',
         Contact: 'Contact',
+        seeResume: 'Voir Mon CV',
+        Myprojects: 'Certains de mes projets...',
+
+        job: 'Développeur Junior Full Stack',
 
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
         Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
-        iwork: "J'adore travailler avec..."
+        iwork: "J'adore travailler avec...",
+        SeeMore: 'Voir Plus'
     },
     'es': {
         Skills: 'Habilidades',
         Projects: 'Proyectos ',
         Resume: 'CV',
         Contact: 'Contacto',
+        job: 'Junior Full Stack Developer',
+        Myprojects: 'Algunos de mis proyectos...',
+        seeResume: 'Ver CV',
 
         Hello: 'Hola 👋🏼! Soy',
         myName: 'Houdaifa Amzil',
         Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
-        iwork: 'Me encanta trabajar con...'
+        iwork: 'Me encanta trabajar con...',
+        SeeMore: 'Ver más'
     },
     'ar': {
         Home: 'الرئيسية',
         Skills: 'مهارات',
         Projects: 'مشاريع ',
         Resume: 'سيرة ذاتية',
-        Contact: 'راسلني',
+        Contact: 'راسل',
+        seeResume: 'سيرتي الذاتية',
+        job: 'مطور مواقع ويب',
 
         Hello: 'أهلاً 👋🏼!, أنا',
         myName: 'حديفة أمزيل',
-        Aboutme: 'إلى تشكيل وفيما وفيما أولا والأقليات، مصالح شعور بة هو النظام صعود هذة التقرير للحقوق غير ومنافذها الدفاعية وهي الجانب تقدم ألف يقطعون بخصوص وشعور مفاوضات يقول تتعود مصالح العسكري تغيير أكد وخمسة الأميركيين من الجديدة قضايا الأمنية العربي اعتمدت حلفاء المنطقة،',
-        iwork: '...أحب أن أعمل ب'
+        Aboutme: 'بدأت رحلتي مع البرمجة منذ 5 أعوام، عندما بدأت بتعلم برمجة تطبيقات الهواتف، حيت قمت بتطوير بعض التطبيقات لشركات محلية و نشر بعضها على متجر جوجل ستور.مؤخراً قمت بالإلتحاق بفريق برمجة رائع في أول عمل لي في البرمجة بدوام كامل، حيت صرت مركزاً أكثر على تطوير تطبيقات الويب.',
+        iwork: '...أحب العمل ب',
+
+        Myprojects: '...بعض من مشاريعي',
+        SeeMore: 'شاهد أكثر'
     },
 };
 

@@ -1,44 +1,58 @@
 <template>
   <div>
-    <section id="home" class="flex justify-center items-center space-x-44 p-12 mx-auto">
+    
+    <section id="home" class="flex justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12 sm:py-16 mx-auto">
       <div class="flex-1 flex flex-col space-y-4">
         <div>
-          <h2 class="2xl:text-2xl text-2xl focus-in-expand whitespace-nowrap">
+          <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand ">
             {{$t('Hello')}}
-            <span class="text-fakhti 2xl:text-4xl text-3xl tracking-normal font-bold focus-in-expand whitespace-nowrap hover:text-turquoise">{{$t('myName')}}</span>
+            <span class="text-fakhti lg:text-4xl sm:text-2xl tracking-normal font-bold focus-in-expand hover:text-turquoise">{{$t('myName')}}</span>
           </h2>
         </div>
         <div>
-          <h1 class="text-turquoise 2xl:text-6xl text-5xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
+          <h1 class="text-turquoise 2xl:text-6xl sm:text-4xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
         </div>
         <div>
           <typical v-if="isTranslated"
-            class="typicalWrapper md:text-2xl text-justify text-gray-500 xl:leading-normal"
+            class="typicalWrapper lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed sm:tracking-relaxed"
             :steps="[$t('Aboutme'),200]"
             :wrapper="'h6'"
           >
           </typical>
-          <p v-else class="md:text-2xl text-justify text-gray-500 xl:leading-normal">{{$t('Aboutme')}}</p>
+          <p v-else class="lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed xl:tracking-tight sm:tracking-relaxed">{{$t('Aboutme')}}</p>
         </div>
-        <div>
-          <!-- <h3 class="text-gray-500 md:text-2xl">{{ $t('Based') }} <span>{{ $t('city') }} <flag class="text-xl" iso="ma" /></span></h3> -->
-        </div>
+        
+        <!-- See my resume -->
+        <button @click="goToResume" class="bg-transparent lg:w-1/3 md:w-auto hover:bg-turquoise font-semibold uppercase hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
+          {{$t('seeResume')}}
+        </button>
+
         <!-- Social media icons -->
         <v-links/>
         
       </div>
       <div class="flex-1">
-        <img class="2xl:w-5/6 w-full slit-in-diagonal-1 rounded" src="../assets/me.jpg" alt="Me"/>
+        <img class="2xl:w-5/6 w-full slit-in-diagonal-1 rounded-lg" src="../assets/me.jpg" alt="Me"/>
       </div>
     </section>
+
+    <!-- Scroll down -->
     <div class="flex justify-center items-center animate-bounce text-2xl text-gray-500 py-4">
-      <div><a href="#skills"><i class="fas fa-arrow-down"></i></a></div>
+      <div><a href="#skills"><i class="fas fa-chevron-down"></i></a></div>
     </div>
 
     <!-- Skills Section -->
     <section id="skills" class="py-24">
       <skills/>
     </section>
+
+    <section id="projects" class="py-24">
+      <projects/>
+    </section>
+
+    <!-- Scroll To Top btn -->
+    <scroll-to-top ref="scrollTop" />
+
   </div>
 </template>
 
@@ -48,16 +62,24 @@ import {mapGetters} from 'vuex'
 import typical from "vue-typical"
 import skills from "../components/Skills.vue"
 import VLinks from '../components/links.vue'
+import projects from '../components/Projects.vue'
+import ScrollToTop from '../components/ScrollToTop.vue'
 
 export default {
   name: "Home",
-  components: {typical, skills, VLinks},
+  components: {typical, skills, VLinks, projects, ScrollToTop},
   data() {
     return {};
   },
   computed:{
     ...mapGetters({isTranslated: 'isTranslated'})
-  }
+  },
+  methods:{
+    goToResume(){this.$router.push({ name: 'Resume' })}
+  },
+  mounted(){
+    window.addEventListener('scroll', this.$refs.scrollTop.scrollListener)
+  },
 };
 </script>
 

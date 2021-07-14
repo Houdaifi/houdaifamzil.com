@@ -1,16 +1,16 @@
 <template>
-  <nav class="flex justify-between items-center text-gray-700 xl:text-xl text-base pb-8 xl:pb-12">
+  <nav class="flex justify-between items-center text-gray-700 xl:text-xl text-base pb-8 xl:pb-12 flex-col lg:flex-row lg:space-y-0 space-y-5">
     <div>
-      <h1 style="font-family: 'Fuggles', cursive;" class="text-6xl tracking-wider font-extralight">
+      <h1 @click="goToRouter('Home')" style="font-family: 'Fuggles', cursive;" class="text-6xl tracking-wider font-extralight cursor-pointer">
         Amzil Houdaifa
       </h1>
     </div>
     <div>
       <router-link class="pr-8 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link>
-      <a href="#skills" class="pr-8 font-light hover:text-gray-500">{{$t('Skills')}}</a>
-      <router-link class="pr-8 font-light hover:text-gray-500" to="/projects">{{$t('Projects')}}</router-link>
-      <router-link class="pr-8 font-light hover:text-gray-500" to="/cv">{{$t('Resume')}}</router-link>
-      <button class="rounded-lg bg-turquoise hover:bg-fakhti px-6 py-2 text-base text-white font-semibold" to="/contact">
+      <a href="" v-show="IamNotInHome" @click.prevent="goTo('skills')" class="pr-8 font-light hover:text-gray-500">{{$t('Skills')}}</a>
+      <a href="" v-show="IamNotInHome" @click.prevent="goTo('projects')" class="pr-8 font-light hover:text-gray-500">{{$t('Projects')}}</a>
+      <router-link class="pr-8 font-light hover:text-gray-500" to="/resume">{{$t('Resume')}}</router-link>
+      <button class="rounded-lg bg-turquoise hover:bg-fakhti py-2 px-4 text-base text-white font-semibold" @click="goToRouter('Contact')">
         {{$t('Contact')}}
       </button>
       <v-drop-down ref="dropDown" class="pl-12">
@@ -43,6 +43,7 @@ export default {
     components:{VDropDown},
     data(){
       return{
+        IamNotInHome: true,
         choosenLanguage: "",
         languages: [
           // { flag: 'ma', language: 'ma', title: 'Tifinagh' },
@@ -53,6 +54,15 @@ export default {
         ],
       }
     },
+    watch:{
+        $route (to){
+            if(to.path != "/"){
+              this.IamNotInHome = false
+            }else{
+              this.IamNotInHome = true
+            }
+        }
+    },
     methods: {
       changeLocale(index) {
         i18n.locale = this.languages[index].language
@@ -60,10 +70,17 @@ export default {
         this.$store.commit('ToggleIsTranslated')
         this.$refs.dropDown.hide()
       },
+      goTo(destination){
+        var elementPosition = document.getElementById(destination).offsetTop
+        window.scrollTo(0, elementPosition)
+      },
+      goToRouter(destination){
+        this.$router.push({ name: destination })
+      }
     },
     mounted() {
       this.choosenLanguage = 'gb'
-    },
+    }
 };
 </script>
 
