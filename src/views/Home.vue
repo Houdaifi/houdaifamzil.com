@@ -42,13 +42,16 @@
     </div>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-24">
+    <section id="skills" class="py-14">
       <skills/>
     </section>
 
-    <section id="projects" class="py-24">
+    <section id="projects" class="py-14">
       <projects/>
     </section>
+
+    <!-- Chat with me -->
+    <chat-with-me/>
 
     <!-- Scroll To Top btn -->
     <scroll-to-top ref="scrollTop" />
@@ -64,10 +67,11 @@ import skills from "../components/Skills.vue"
 import VLinks from '../components/links.vue'
 import projects from '../components/Projects.vue'
 import ScrollToTop from '../components/ScrollToTop.vue'
+import ChatWithMe from '../components/ChatWithMe.vue'
 
 export default {
   name: "Home",
-  components: {typical, skills, VLinks, projects, ScrollToTop},
+  components: {typical, skills, VLinks, projects, ScrollToTop, ChatWithMe},
   data() {
     return {};
   },

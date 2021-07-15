@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h1 class="text-center text-gray-800 pb-20 text-5xl font-extrabold">
-            {{$t('Myprojects')}}
+        <h1 class="text-center text-gray-800 pb-20 mt-12 text-5xl font-extrabold">
+            {{$t('Projects')}}
         </h1>
         <div class="flex flex-wrap bg-white rounded -mx-px overflow-hidden">
 
@@ -88,18 +88,14 @@
             </div>
 
         </div>
-        <div class="flex justify-center items-center pt-12">
-            <button @click="goToProjects" class="bg-transparent hover:bg-turquoise font-semibold uppercase hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
-                {{$t('SeeMore')}}
-            </button>
-        </div>
+        
       </div>
 </template>
 
 
 <script>
 export default {
-    name:'Projects',
+    name:'AllProjects',
     methods:{
         goToProjects(){this.$router.push({ name: 'Projects' })}
     }

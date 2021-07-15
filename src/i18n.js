@@ -10,12 +10,21 @@ const messages = {
         job: 'Junior Full Stack Developer',
         Aboutme: 'I started to write my first lines of code 5 years ago, starting by learning native Android app developement to Flutter, where i made several apps for local companies and for Play Store.'+
                 ' Recently i had the opportunity to join a great team of developers on my first full time job, where i become more concentrated on Web Developement.',
-        iwork: 'I love to work with...',
+        iwork: 'I work with...',
         Myprojects: 'Some of my projects...',
         seeResume: 'View Resume',
 
         city: 'Tangier, Morocco',
-        SeeMore: 'View More'
+        SeeMore: 'View More',
+
+        RobotHello: "Hi! I’m Houdaifa's Robot 🤖",
+        helpU: 'How can i help you ?',
+
+        sayHi:'Just wanted to say Hi 👋🏼',
+        hireU: "i'd like to hire you 💼 ",
+
+        ReponseHi: 'Well thanks for passing by 😀',
+        haveGoodDay: 'Have a good day 🙏'
     },
     'fr': {
         Skills: 'Compétences',
@@ -30,7 +39,7 @@ const messages = {
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
         Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
-        iwork: "J'adore travailler avec...",
+        iwork: "Je travaille avec...",
         SeeMore: 'Voir Plus'
     },
     'es': {
@@ -45,7 +54,7 @@ const messages = {
         Hello: 'Hola 👋🏼! Soy',
         myName: 'Houdaifa Amzil',
         Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
-        iwork: 'Me encanta trabajar con...',
+        iwork: 'Yo trabajo con...',
         SeeMore: 'Ver más'
     },
     'ar': {
@@ -60,10 +69,21 @@ const messages = {
         Hello: 'أهلاً 👋🏼!, أنا',
         myName: 'حديفة أمزيل',
         Aboutme: 'بدأت رحلتي مع البرمجة منذ 5 أعوام، عندما بدأت بتعلم برمجة تطبيقات الهواتف، حيت قمت بتطوير بعض التطبيقات لشركات محلية و نشر بعضها على متجر جوجل ستور.مؤخراً قمت بالإلتحاق بفريق برمجة رائع في أول عمل لي في البرمجة بدوام كامل، حيت صرت مركزاً أكثر على تطوير تطبيقات الويب.',
-        iwork: '...أحب العمل ب',
+        iwork: '...أعمل ب',
 
         Myprojects: '...بعض من مشاريعي',
-        SeeMore: 'شاهد أكثر'
+        SeeMore: 'شاهد أكثر',
+        
+        
+        //Robot chat 
+        RobotHello: "أهلاً و سهلاً 🤖",
+        helpU: 'كيف يمكنني مساعدتك ؟',
+
+        sayHi: '👋🏼أردت فقط أن أقول مرحبا',
+        hireU: '💼أود توظيفك',
+        ReponseHi: 'حسنا شكرا على المرور 😀',
+        haveGoodDay: 'اتمنى لك يوم جيد🙏'
+
     },
 };
 

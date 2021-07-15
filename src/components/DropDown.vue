@@ -10,7 +10,7 @@
             </button>
         </div>
 
-        <div v-show="showDropDown" class="origin-top-right absolute right-0 w-auto rounded-md shadow-lg bg-white dark:bg-coolGray-600 dark:text-gray-300 ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="1">
+        <div v-show="showDropDown" class="origin-top-right absolute right-0 w-auto rounded-md shadow-lg bg-white dark:bg-coolGray-600 dark:text-gray-300 ring-1 ring-black ring-opacity-5 focus:outline-none z-50" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabindex="1">
             <div class="py-1" role="none">
                 <slot name="menu"></slot>
             </div>
