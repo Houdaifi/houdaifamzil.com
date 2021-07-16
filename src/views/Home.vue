@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <section id="home" class="flex justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12 sm:py-16 mx-auto">
+    <section id="home" class="flex flex-col-reverse sm:flex-row justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12 sm:py-16 mx-auto">
       <div class="flex-1 flex flex-col space-y-4">
         <div>
           <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand ">
@@ -23,7 +23,7 @@
         </div>
         
         <!-- See my resume -->
-        <button @click="goToResume" class="bg-transparent lg:w-1/3 md:w-auto hover:bg-turquoise font-semibold uppercase hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
+        <button @click="goToResume" class="bg-transparent lg:w-1/3 w-full hover:bg-turquoise font-semibold uppercase hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
           {{$t('seeResume')}}
         </button>
 

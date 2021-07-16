@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex justify-between items-center text-gray-700 xl:text-xl text-base pb-8 xl:pb-12 flex-col lg:flex-row lg:space-y-0 space-y-5">
+  <nav class="flex flex-nowrap justify-between items-center text-gray-700 xl:text-xl text-base pb-8 xl:pb-12 flex-col lg:flex-row lg:space-y-0 space-y-5">
     <div>
       <h1 @click="goToRouter('Home')" style="font-family: 'Fuggles', cursive;" class="text-6xl tracking-wider font-extralight cursor-pointer">
         Amzil Houdaifa
@@ -8,7 +8,7 @@
     <div>
       <router-link class="pr-8 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link>
       <a href="" v-show="IamNotInHome" @click.prevent="goTo('skills')" class="pr-8 font-light hover:text-gray-500">{{$t('Skills')}}</a>
-      <a href="" v-show="IamNotInHome" @click.prevent="goTo('projects')" class="pr-8 font-light hover:text-gray-500">{{$t('Projects')}}</a>
+      <router-link class="pr-8 font-light hover:text-gray-500" to="projects">{{$t('Projects')}}</router-link>
       <router-link class="pr-8 font-light hover:text-gray-500" to="/resume">{{$t('Resume')}}</router-link>
       <button class="rounded-lg bg-turquoise hover:bg-fakhti py-2 px-4 text-base text-white font-semibold" @click="goToRouter('Contact')">
         {{$t('Contact')}}

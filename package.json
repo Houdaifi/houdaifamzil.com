@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "v-img": "^0.2.0",
     "vue": "^2.6.11",
     "vue-carousel": "^0.18.0",
     "vue-clickaway": "^2.2.2",

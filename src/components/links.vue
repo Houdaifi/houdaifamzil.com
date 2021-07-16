@@ -27,6 +27,10 @@
         ><i class="fab fa-codepen text-gray-800 hover:text-turquoise"></i
       ></a>
     </div>
+    <div>
+      <a href="https://telegram.me/amzilh" target="_blank">
+        <i class="fab fa-telegram-plane text-gray-800 hover:text-turquoise"></i></a>
+    </div>
   </div>
 </template>
 
