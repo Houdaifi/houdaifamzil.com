@@ -1,23 +1,23 @@
 <template>
   <div>
       <div class="relative" v-on-clickaway="hide" @keydown.esc="hide">
-        <div class="fixed rounded-full h-12 w-12 sm:h-16 sm:w-16 flex items-center justify-center right-4 bottom-4 bg-fakhti text-white cursor-pointer" @click="show">  
+        <div class="fixed rounded-full h-12 w-12 sm:h-20 sm:w-20 flex items-center justify-center right-4 bottom-4 bg-fakhti text-white cursor-pointer" @click="show">  
             <div>
                 <i class="far fa-comment text-white"></i>
             </div>
         </div>
-        <div class="fixed flex flex-col right-20 bottom-14 w-80 shadow-xl" v-show="visible">
-            <div class="flex items-start px-4 rounded-t-lg py-5 bg-gray-500">
+        <div class="fixed flex flex-col right-20 bottom-14 w-96 shadow-xl" v-show="visible">
+            <div class="flex items-center px-4 rounded-t-lg py-5 bg-gray-500">
                 <div>
-                    <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">
+                    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white object-cover" src="../assets/myRobot.jpg" alt="ME">
                 </div>
-                <div class="flex-shrink ml-4 font-semibold text-white text-lg">
+                <div class="flex-shrink ml-4 font-semibold text-white text-xl">
                     {{$t('myName')}}
                 </div>
             </div>
 
             <!-- Begin Chat -->
-            <div style="max-height:500px" class="bg-gray-200 border-r border-l border-gray-300 text-sm border-b flex flex-col rounded-b-lg space-y-4 overflow-y-auto p-4">
+            <div style="max-height:500px" class="bg-gray-200 border-r border-l border-gray-300 text-base border-b flex flex-col rounded-b-lg space-y-4 overflow-y-auto p-4">
                 <div class="flex flex-col items-start space-y-4">
                     <div class="bg-white rounded-lg p-2" v-for="(message, index) in messages" :key="index">
                         {{$t(message)}}
