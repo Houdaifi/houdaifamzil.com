@@ -46,7 +46,7 @@
       <skills/>
     </section>
 
-    <section id="projects" class="py-14">
+    <section id="projects" class="pt-14">
       <projects/>
     </section>
 

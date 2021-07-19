@@ -39,5 +39,3 @@ export default {
     name:'VLinks'
 };
 </script>
-
-<style></style>

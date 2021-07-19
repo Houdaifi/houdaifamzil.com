@@ -4,20 +4,16 @@
       <v-navbar />
       <router-view />
     </div>
+    <v-footer/>
   </div>
 </template>
 
 
 <script>
 import VNavbar from "./components/Navbar.vue";
-
+import VFooter from "./components/Footer.vue"
 export default {
-  components: { VNavbar},
-  data() {
-    return {
-      
-    };
-  }
+  components: { VNavbar, VFooter}
 };
 </script>
 

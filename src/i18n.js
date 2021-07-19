@@ -28,11 +28,17 @@ const messages = {
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
         Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",
-        ResponsehireU: "Great, Contact me and let get that work done 💪"
+        ResponsehireU: "Great, Contact me and let get that work done 💪",
+
+
+        Email: 'E-mail',
+        Phone: 'Phone',
+        PhoneNumber: '+212 634 89 69 98',
     },
     'fr': {
         Skills: 'Compétences',
         Projects: 'Projets ',
+        Education: 'Education',
         Resume: 'CV',
         Contact: 'Contact',
         seeResume: 'Voir Mon CV',
@@ -55,7 +61,11 @@ const messages = {
 
         ReponseHi: 'Merci pour votre visite 😀, J\'espère que vous avez apprécié mon travail, <br> Bonne journée 🙏',
         ResponseBased: "Je suis basé à Tanger,<br> Une belle ville au nord du Maroc, <br> Voici une photo",
-        ResponsehireU: "Génial, Contactez moi et Allons faire ce travail 💪"
+        ResponsehireU: "Génial, Contactez moi et Allons faire ce travail 💪",
+
+        Email: 'E-mail',
+        Phone: 'Télephone',
+        PhoneNumber: '+212 634 89 69 98'
     },
     'es': {
         Skills: 'Habilidades',
@@ -70,7 +80,11 @@ const messages = {
         myName: 'Houdaifa Amzil',
         Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
         iwork: 'Yo trabajo con...',
-        SeeMore: 'Ver más'
+        SeeMore: 'Ver más',
+
+        Email: 'Correo',
+        Phone: 'Teléfono',
+        PhoneNumber: '+212 634 89 69 98'
     },
     'ar': {
         Home: 'الرئيسية',
@@ -97,6 +111,10 @@ const messages = {
         Based:'أين تقطن ؟',
         TellJoke: 'أخبرني نكتة',
         hireU: '💼 أود توظيفك',
+
+        Email: 'الإيميل',
+        Phone: 'الهاتف',
+        PhoneNumber: '+٢١٢ ٦٣٤ ٨٩ ٦٩ ٩٨',
 
         ReponseHi: 'حسنا شكرا على مرورك 😀, اتمنى لك يوم جيد🙏',
         ResponseBased: "أنا مقيم في طنجة، مدينة جميلة تقع في شمال المغرب، هذه صورة لها",
