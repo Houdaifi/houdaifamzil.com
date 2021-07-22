@@ -6,11 +6,11 @@
         <div>
           <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand ">
             {{$t('Hello')}}
-            <span class="text-fakhti lg:text-4xl sm:text-2xl tracking-normal font-bold focus-in-expand hover:text-turquoise">{{$t('myName')}}</span>
+            <span class="text-fakhti text-2xl lg:text-4xl tracking-normal font-bold focus-in-expand hover:text-turquoise">{{$t('myName')}}</span>
           </h2>
         </div>
         <div>
-          <h1 class="text-turquoise 2xl:text-6xl sm:text-4xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
+          <h1 class="text-turquoise text-4xl 2xl:text-6xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
         </div>
         <div>
           <typical v-if="isTranslated"

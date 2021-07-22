@@ -25,6 +25,8 @@ const messages = {
         TellJoke: 'Tell me a joke',
         Based: 'Where are you based ?',
 
+        Decathlon: 'Decathlon',
+
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
         Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",
@@ -34,6 +36,9 @@ const messages = {
         Email: 'E-mail',
         Phone: 'Phone',
         PhoneNumber: '+212 634 89 69 98',
+
+        
+        LicenceEco: 'Bachelor of Basic Studies in Economics and Management'
     },
     'fr': {
         Skills: 'Compétences',
@@ -65,7 +70,16 @@ const messages = {
 
         Email: 'E-mail',
         Phone: 'Télephone',
-        PhoneNumber: '+212 634 89 69 98'
+        PhoneNumber: '+212 634 89 69 98',
+
+        Arabic: 'Arabe',
+        English: 'Anglais',
+        French: 'Français',
+        Spanish: 'Espagnol',
+
+
+        Decathlon: 'Decathlon',
+        LicenceEco: "Licence d'études fondamentales en sciences economiques et gestion"
     },
     'es': {
         Skills: 'Habilidades',
@@ -84,7 +98,15 @@ const messages = {
 
         Email: 'Correo',
         Phone: 'Teléfono',
-        PhoneNumber: '+212 634 89 69 98'
+        PhoneNumber: '+212 634 89 69 98',
+
+        Arabic: 'Arabe',
+        English: 'Inglés',
+        French: 'Francés',
+        Spanish: 'Española',
+
+        Decathlon: 'Decathlon',
+        LicenceEco: "Licencia de estudios básicos en ciencias económicas y de gestión"
     },
     'ar': {
         Home: 'الرئيسية',
@@ -119,7 +141,9 @@ const messages = {
         ReponseHi: 'حسنا شكرا على مرورك 😀, اتمنى لك يوم جيد🙏',
         ResponseBased: "أنا مقيم في طنجة، مدينة جميلة تقع في شمال المغرب، هذه صورة لها",
         Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",
-        ResponsehireU: 'جميل، راسلني الأن و لنقم بإنهاء هذا العمل'
+        ResponsehireU: 'جميل، راسلني الأن و لنقم بإنهاء هذا العمل',
+
+        
     },
 };
 

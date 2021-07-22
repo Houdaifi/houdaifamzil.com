@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white w-full h-52 shadow flex flex-col sm:flex-row justify-between items-center py-4 px-0 sm:px-52 mt-12">
+  <div class="bg-white w-full h-52 shadow flex flex-col lg:flex-row justify-between items-center py-4 px-0 sm:px-52 mt-12">
     <div class="flex flex-col">
         <div><h4 class="text-xl font-bold mb-2">Contact me:</h4></div>
         <hr class="mb-4">
