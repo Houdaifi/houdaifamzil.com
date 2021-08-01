@@ -4,8 +4,8 @@
       {{$t('iwork')}}
     </h1>
     <carousel
-      :per-page="4"
-      :mouse-drag="false"
+      :perPageCustom="[[320, 2], [1199, 4]]"
+      :mouse-drag="true"
       :autoplay="true"
       :paginationSize="0"
       :loop="true"

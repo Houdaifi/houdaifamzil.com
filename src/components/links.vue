@@ -16,7 +16,7 @@
       ></a>
     </div>
     <div>
-      <a href="#" target="_blank"
+      <a href="https://www.instagram.com/houdaifa.amzil/" target="_blank"
         ><i
           class="fab fa-instagram-square text-gray-800 hover:text-turquoise"
         ></i

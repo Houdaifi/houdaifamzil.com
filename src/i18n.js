@@ -32,13 +32,23 @@ const messages = {
         Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",
         ResponsehireU: "Great, Contact me and let get that work done 💪",
 
+        Salesman: 'Salesman',
 
         Email: 'E-mail',
         Phone: 'Phone',
         PhoneNumber: '+212 634 89 69 98',
+        FullAdresse: 'Av Idrissia, Tangier Morocco',
+        Born:"Born on 20th of June 1998",
+        Single: 'Single',
 
-        
-        LicenceEco: 'Bachelor of Basic Studies in Economics and Management'
+        Profile:'Profile',
+        Experience:'Experience',
+
+        LicenceInfo: 'Bachelor of Web & Mobile Design and Development',
+        LicenceEco: 'Bachelor of Basic Studies in Economics and Management',
+        Universtiy: 'Abdelmalik Saadi University',
+        OMAC: 'One Million Arab Coders',
+
     },
     'fr': {
         Skills: 'Compétences',
@@ -71,15 +81,25 @@ const messages = {
         Email: 'E-mail',
         Phone: 'Télephone',
         PhoneNumber: '+212 634 89 69 98',
+        FullAdresse: 'Rue Idrissia, Tanger Maroc',
+        Born:"Né le 20 juin 1998",
+        Single: 'Célibataire',
 
         Arabic: 'Arabe',
         English: 'Anglais',
         French: 'Français',
         Spanish: 'Espagnol',
 
-
         Decathlon: 'Decathlon',
-        LicenceEco: "Licence d'études fondamentales en sciences economiques et gestion"
+        Salesman: 'Vendeur',
+
+        Profile:'Profil',
+        Experience:'Expérience',
+
+        LicenceInfo: 'Licence en Technologie de Conception et de Développement Web & Mobile',
+        LicenceEco: "Licence d'études fondamentales en sciences economiques et gestion",
+        Universtiy: 'Université Abdelmalek Saadi',
+        OMAC: 'Un million de codeurs arabes'
     },
     'es': {
         Skills: 'Habilidades',
@@ -99,6 +119,9 @@ const messages = {
         Email: 'Correo',
         Phone: 'Teléfono',
         PhoneNumber: '+212 634 89 69 98',
+        FullAdresse: 'Av Idrissia, Tanger Marruecos',
+        Born:"Nacido el 20 de junio de 1998",
+        Single: 'Soltero',
 
         Arabic: 'Arabe',
         English: 'Inglés',
@@ -106,7 +129,16 @@ const messages = {
         Spanish: 'Española',
 
         Decathlon: 'Decathlon',
-        LicenceEco: "Licencia de estudios básicos en ciencias económicas y de gestión"
+        Salesman: 'Vendedor',
+
+        Profile:'Perfil',
+        Experience:'Experiencia',
+        Formation:'Formación',
+
+        LicenceInfo: 'Licenciatura en Diseño y Desarrollo de Páginas Web y Móviles',
+        LicenceEco: "Licencia de estudios básicos en ciencias económicas y de gestión",
+        Universtiy: 'Universidad Abdelmalek Saadi',
+        OMAC: 'Un millón de codificadores árabes'
     },
     'ar': {
         Home: 'الرئيسية',
@@ -133,17 +165,30 @@ const messages = {
         Based:'أين تقطن ؟',
         TellJoke: 'أخبرني نكتة',
         hireU: '💼 أود توظيفك',
+        // End Robot chat
 
         Email: 'الإيميل',
         Phone: 'الهاتف',
         PhoneNumber: '+٢١٢ ٦٣٤ ٨٩ ٦٩ ٩٨',
+        FullAdresse: 'حي الإدريسية، طنجة المغرب',
+        Born:"مواليد 20 يونيو 1998 ",
+        Single: 'عازب',
+
+        Salesman: 'موظف المبيعات',
 
         ReponseHi: 'حسنا شكرا على مرورك 😀, اتمنى لك يوم جيد🙏',
         ResponseBased: "أنا مقيم في طنجة، مدينة جميلة تقع في شمال المغرب، هذه صورة لها",
-        Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",
         ResponsehireU: 'جميل، راسلني الأن و لنقم بإنهاء هذا العمل',
 
-        
+        Profile:'بروفيل',
+        Experience:'خبرة ',
+        Formation:'تكوين',
+
+        LicenceInfo: 'بكالوريوس تصميم وتطوير تطبيقات الويب والموبايل',
+        LicenceEco: 'بكالوريوس في الدراسات الأساسية في الاقتصاد والإدارة',
+        Universtiy: 'جامعة عبد الملك السعدي',
+        OMAC: 'مبادرة مليون مبرمج عربي',
+
     },
 };
 
