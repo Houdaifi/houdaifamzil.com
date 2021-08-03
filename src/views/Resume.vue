@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center items-start pt-20 min-h-screen">
-      <div class="bg-white shadow-xl rounded grid grid-rows-2 md:grid-rows-1 md:grid-cols-3">
+      <div class="bg-white shadow-xl rounded grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-3">
         <!-- Left section -->
         <div class="row-span-1 col-span-1 space-y-4 pt-20 bg-gradient-to-b from-green-100 to-blue-100">
 
@@ -19,7 +19,7 @@
           
           
           <!-- Contact -->
-          <div class="flex flex-col justify-start items-start pl-20 md:pl-2 xl:pl-12 space-y-4">
+          <div class="flex flex-col justify-start items-start pl-8 md:pl-2 xl:pl-12 space-y-4">
             <div><h1 class="text-2xl font-semibold">Contact</h1></div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-envelope text-lg"></i></div>
@@ -37,7 +37,7 @@
 
 
           <!-- Personal -->
-          <div class="flex flex-col justify-start items-start pl-20 md:pl-2 xl:pl-12 pt-8 space-y-4">
+          <div class="flex flex-col justify-start items-start pl-8 md:pl-2 xl:pl-12 pt-8 space-y-4">
             <div><h1 class="text-2xl font-semibold">Personal</h1></div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-baby text-lg"></i></div>
@@ -50,7 +50,7 @@
           </div>
 
           <!-- Web -->
-          <div class="flex flex-col justify-start items-start pl-20 md:pl-2 xl:pl-12 pt-8 space-y-4">
+          <div class="flex flex-col justify-start items-start pl-8 md:pl-2 xl:pl-12 pt-8 space-y-4">
             <div><h1 class="text-2xl font-semibold">Web</h1></div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fab fa-twitter text-lg"></i></div>
@@ -66,25 +66,10 @@
             </div>
           </div>
 
-          <!-- Skills -->
-          <div class="flex flex-col justify-start items-start pl-20 md:pl-2 xl:pl-12 pt-8">
-            <div><h1 class="text-2xl font-semibold mb-4">Skills</h1></div>
-            <div class="grid grid-cols-3 xl:grid-cols-4 gap-10 grid-rows-2  pt-4">
-              <i class="fab fa-laravel 2xl:text-5xl text-4xl"></i>
-              <img class="w-12 xl:w-full" src="https://img.icons8.com/ios/50/000000/mysql-logo.png"/>
-              <i class="fab fa-vuejs 2xl:text-5xl text-4xl"></i>
-              <i class="fab fa-js 2xl:text-5xl text-4xl"></i>
-              <img class="w-12 xl:w-full" src="https://img.icons8.com/ios-filled/50/000000/jquery.png"/>
-              <i class="fab fa-bootstrap 2xl:text-5xl text-4xl"></i>
-              <i class="fab fa-html5 2xl:text-5xl text-4xl"></i>
-              <i class="fab fa-css3-alt 2xl:text-5xl text-4xl"></i>
-            </div>
-          </div>
-
           <!-- Languages -->
-          <div class="flex flex-col justify-start items-start pl-20 md:pl-2 xl:pl-12 py-4">
+          <div class="flex flex-col justify-start items-start pl-8 md:pl-2 xl:pl-12 py-4">
             <div><h1 class="text-2xl font-semibold mb-4">Languages</h1></div>
-            <div class="flex" v-for="(language, index) in languages" :key="index">
+            <div class="flex mb-3" v-for="(language, index) in languages" :key="index">
               <div><h2 class="sm:text-base 2xl:text-xl font-semibold lg:leading-loose sm:leading-relaxed sm:tracking-relaxed">{{$t(language.name)}} :</h2></div>
               <div class="text-gray-700 lg:text-lg ml-2">{{$t(language.level)}}</div>
             </div>
@@ -93,7 +78,7 @@
         </div>
         
         <!-- Right section -->
-        <div class="row-span-1 md:col-span-2 bg-white flex flex-col p-4 sm:p-12 border-r">
+        <div class="row-span-1 lg:col-span-2 bg-white flex flex-col p-4 sm:p-12 border-r">
 
           <!-- Profile -->
           <div class="space-y-4">
@@ -138,7 +123,70 @@
 
           <!-- Projects -->
           <div class="space-y-4 mt-8">
-           
+            <h1 class="text-3xl border-l-8 border-green-200">{{$t('Skills')}}</h1>
+
+            <div class="relative pt-8">
+              <div class="flex justify-start space-x-12 mb-4 items-center">
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Javascript</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Vue JS</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex justify-start space-x-12 mb-4 items-center">
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Tailwind CSS</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Bootstrap</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex justify-start space-x-12 mb-4 items-center">
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Laravel</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:65%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">MySQL</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex justify-start space-x-12 mb-4 items-center">
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Android Developement</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Flutter</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
           </div>
         </div>
 

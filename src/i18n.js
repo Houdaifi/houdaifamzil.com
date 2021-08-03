@@ -49,6 +49,16 @@ const messages = {
         Universtiy: 'Abdelmalik Saadi University',
         OMAC: 'One Million Arab Coders',
 
+        // Languages
+        Arabic: 'Arabic',
+        English: 'English',
+        French: 'French',
+        Spanish: 'Spanish',
+
+        Native: 'Native',
+        Advanced: 'C1',
+        Intermediate: 'B2',
+
     },
     'fr': {
         Skills: 'Compétences',
@@ -90,6 +100,8 @@ const messages = {
         French: 'Français',
         Spanish: 'Espagnol',
 
+        Native: 'Langue maternelle',
+
         Decathlon: 'Decathlon',
         Salesman: 'Vendeur',
 
@@ -123,10 +135,13 @@ const messages = {
         Born:"Nacido el 20 de junio de 1998",
         Single: 'Soltero',
 
+        // Languages
         Arabic: 'Arabe',
         English: 'Inglés',
         French: 'Francés',
         Spanish: 'Española',
+
+        Native: 'idioma materno',
 
         Decathlon: 'Decathlon',
         Salesman: 'Vendedor',
@@ -188,6 +203,17 @@ const messages = {
         LicenceEco: 'بكالوريوس في الدراسات الأساسية في الاقتصاد والإدارة',
         Universtiy: 'جامعة عبد الملك السعدي',
         OMAC: 'مبادرة مليون مبرمج عربي',
+
+        // Languages
+        Arabic: 'عربى',
+        English: 'إنجليزي',
+        French: 'فرنسي',
+        Spanish: 'الأسبانية',
+
+        // Languages level
+        Native: 'اللغة الأم',
+        Advanced: 'C1',
+        Intermediate: 'B2',
 
     },
 };

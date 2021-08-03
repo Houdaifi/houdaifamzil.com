@@ -25,7 +25,7 @@
               <div>
                 <flag class="text-lg" :iso="language.flag" />
               </div>
-              <div class="text-sm">{{ language.title }}</div>
+              <div class="text-sm">{{ $t(language.title) }}</div>
             </div>
           </div>
         </v-drop-down>
