@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-center text-gray-800 pb-20 text-5xl font-extrabold">
+    <h1 class="text-center text-gray-800 dark:text-gray-300 pb-20 text-5xl font-extrabold">
       {{$t('iwork')}}
     </h1>
     <carousel
@@ -9,13 +9,13 @@
       :autoplay="true"
       :paginationSize="0"
       :loop="true"
-      :speed="1700"
+      :speed="2000"
       :mouseDrag="true"
     >
       <slide v-for="(skill, index) in skills" :key="index">
-        <div @click="getDescription(index)" class="rounded-full flex flex-col items-center justify-center bg-white p-8 w-52 h-52 mx-6 space-y-6">
+        <div @click="getDescription(index)" class="rounded-full flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-8 w-52 h-52 mx-6 space-y-6">
           <img class="w-1/2" :src="skill.image" />
-          <h1 class="text-base">{{ skill.name }}</h1>
+          <h1 class="text-base dark:text-gray-300">{{ skill.name }}</h1>
         </div>
       </slide>
     </carousel>

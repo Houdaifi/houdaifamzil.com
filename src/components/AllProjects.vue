@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h1 class="text-center text-gray-800 pb-20 mt-12 text-5xl font-extrabold">
+        <h1 class="text-center text-gray-800 dark:text-gray-300 pb-20 mt-12 text-5xl font-extrabold">
             {{$t('Projects')}}
         </h1>
-        <div class="flex flex-wrap bg-white rounded -mx-px overflow-hidden">
+        <div class="flex flex-wrap bg-white dark:bg-gray-700 rounded -mx-px overflow-hidden">
 
             <div class="w-full hover14 overflow-hidden sm:w-full xl:w-1/2 border-b border-r">
                 <div>
@@ -22,7 +22,7 @@
                         <hr class="my-3">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consequuntur aut alias reiciendis doloremque aperiam tempore vel sed voluptatem doloribus minus deserunt veniam et quibusdam expedita dolor, atque ex nam esse culpa cupiditate exercitationem. Natus, delectus.
                         </p>
                     </div>
@@ -46,7 +46,7 @@
                         <hr class="my-3">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consequuntur aut alias reiciendis doloremque aperiam tempore vel sed voluptatem doloribus minus deserunt veniam et quibusdam expedita dolor, atque ex nam esse culpa cupiditate exercitationem. Natus, delectus.
                         </p>
                     </div>
@@ -80,7 +80,7 @@
                         <hr class="my-3">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consequuntur aut alias reiciendis doloremque aperiam tempore vel sed voluptatem doloribus minus deserunt veniam et quibusdam expedita dolor, atque ex nam esse culpa cupiditate exercitationem. Natus, delectus.
                         </p>
                     </div>

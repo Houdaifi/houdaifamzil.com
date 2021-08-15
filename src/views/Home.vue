@@ -4,7 +4,7 @@
     <section id="home" class="flex flex-col-reverse sm:flex-row justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12 sm:py-16 mx-auto">
       <div class="flex-1 flex flex-col space-y-4">
         <div>
-          <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand ">
+          <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand dark:text-gray-300">
             {{$t('Hello')}}
             <span class="text-fakhti text-2xl lg:text-4xl tracking-normal font-bold focus-in-expand hover:text-turquoise">{{$t('myName')}}</span>
           </h2>
@@ -14,16 +14,16 @@
         </div>
         <div>
           <typical v-if="isTranslated"
-            class="typicalWrapper lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed sm:tracking-relaxed"
+            class="typicalWrapper lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed sm:tracking-relaxed dark:text-gray-300"
             :steps="[$t('Aboutme'),200]"
             :wrapper="'h6'"
           >
           </typical>
-          <p v-else class="lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed xl:tracking-tight sm:tracking-relaxed">{{$t('Aboutme')}}</p>
+          <p v-else class="lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed xl:tracking-tight sm:tracking-relaxed dark:text-gray-300">{{$t('Aboutme')}}</p>
         </div>
         
         <!-- See my resume -->
-        <button @click="goToResume" class="bg-transparent lg:w-1/3 w-full hover:bg-turquoise font-semibold uppercase hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
+        <button @click="goToResume" class="bg-transparent lg:w-1/3 w-full hover:bg-turquoise font-semibold uppercase hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
           {{$t('seeResume')}}
         </button>
 
@@ -46,10 +46,6 @@
       <skills/>
     </section>
 
-    <section id="projects" class="pt-14">
-      <projects/>
-    </section>
-
     <!-- Chat with me -->
     <chat-with-me/>
 
@@ -65,13 +61,12 @@ import {mapGetters} from 'vuex'
 import typical from "vue-typical"
 import skills from "../components/Skills.vue"
 import VLinks from '../components/links.vue'
-import projects from '../components/Projects.vue'
 import ScrollToTop from '../components/ScrollToTop.vue'
 import ChatWithMe from '../components/ChatWithMe.vue'
 
 export default {
   name: "Home",
-  components: {typical, skills, VLinks, projects, ScrollToTop, ChatWithMe},
+  components: {typical, skills, VLinks, ScrollToTop, ChatWithMe},
   data() {
     return {};
   },

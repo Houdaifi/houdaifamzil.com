@@ -2,7 +2,7 @@
   <div class="flex justify-center items-start pt-20 min-h-screen">
       <div class="bg-white shadow-xl rounded grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-3">
         <!-- Left section -->
-        <div class="row-span-1 col-span-1 space-y-4 pt-20 bg-gradient-to-b from-green-100 to-blue-100">
+        <div class="row-span-1 col-span-1 space-y-4 pt-20 bg-gradient-to-b from-green-100 to-blue-100 dark:from-gray-200 dark:to-gray-400">
 
           <!-- Image and name -->
           <div class="flex flex-col justify-start items-center pb-8">
@@ -78,12 +78,12 @@
         </div>
         
         <!-- Right section -->
-        <div class="row-span-1 lg:col-span-2 bg-white flex flex-col p-4 sm:p-12 border-r">
+        <div class="row-span-1 lg:col-span-2 bg-white dark:bg-gray-700 dark:text-gray-300 flex flex-col p-4 sm:p-12 border-r">
 
           <!-- Profile -->
           <div class="space-y-4">
             <h1 class="text-3xl border-l-8 mb-8 border-green-200">{{$t('Profile')}}</h1>
-            <p class="sm:text-base 2xl:text-xl text-gray-500 leading-loose sm:tracking-relaxed">{{$t('Aboutme')}}</p>
+            <p class="sm:text-base 2xl:text-xl text-gray-500 dark:text-gray-300 leading-loose sm:tracking-relaxed">{{$t('Aboutme')}}</p>
             <hr class="border-gray-200">
           </div>
 
@@ -91,14 +91,14 @@
           <div class="space-y-4 mt-8">
             <h1 class="text-3xl border-l-8 border-green-200">{{$t('Experience')}}</h1>
             
-            <div class="flex space-x-8 md:space-x-14 pt-8 sm:pl-4 lg:pl-8 text-gray-500 text-base lg:text-xl" v-for="(experience,index) in experiences" :key="index">
+            <div class="flex space-x-8 md:space-x-14 pt-8 sm:pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-base lg:text-xl" v-for="(experience,index) in experiences" :key="index">
               <div>
                 <h2 style="max-width:50px;" class="text-sm sm:text-base md:text-xl">{{$t(experience.date)}}</h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>
-                <h2 class="text-gray-800">{{$t(experience.name)}}</h2>
-                <h2 class="text-gray-600">{{$t(experience.company)}}</h2>
+                <h2 class="text-gray-800 dark:text-gray-300">{{$t(experience.name)}}</h2>
+                <h2 class="text-gray-600 dark:text-gray-400">{{$t(experience.company)}}</h2>
               </div>
             </div>
             <hr class="border-gray-200">
@@ -108,14 +108,14 @@
           <div class="space-y-4 mt-8">
             <h1 class="text-3xl border-l-8 border-green-200">{{$t('Formation')}}</h1>
             
-            <div class="flex space-x-8 md:space-x-14 pt-8 sm:pl-4 lg:pl-8 text-gray-500 text-base lg:text-xl" v-for="(formation,index) in formations" :key="index">
+            <div class="flex space-x-8 md:space-x-14 pt-8 sm:pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-base lg:text-xl" v-for="(formation,index) in formations" :key="index">
               <div class="flex space-x-4">
-                <h2 style="max-width:50px;" class="text-sm sm:text-base md:text-xl">{{$t(formation.date)}}</h2>
+                <h2 style="max-width:50px;" class="text-sm sm:text-base md:text-xl dark:text-gray-300">{{$t(formation.date)}}</h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>
-                <h2 class="text-gray-800">{{$t(formation.name)}}</h2>
-                <h2 class="text-gray-600">{{$t(formation.school)}}</h2>
+                <h2 class="text-gray-800 dark:text-gray-300">{{$t(formation.name)}}</h2>
+                <h2 class="text-gray-600 dark:text-gray-400">{{$t(formation.school)}}</h2>
               </div>
             </div>
             <hr class="border-gray-200">
@@ -128,13 +128,13 @@
             <div class="relative pt-8">
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Javascript</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Javascript</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Vue JS</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Vue JS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -143,13 +143,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Tailwind CSS</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Tailwind CSS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Bootstrap</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Bootstrap</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -158,13 +158,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Laravel</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Laravel</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:65%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">MySQL</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">MySQL</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -173,13 +173,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Android Developement</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Android Developement</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2">Flutter</h2>
+                  <h2 class="text-gray-800 text-sm sm:text-base md:text-xl mb-2 dark:text-gray-300">Flutter</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
