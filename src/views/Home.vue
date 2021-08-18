@@ -15,7 +15,7 @@
         <div>
           <typical v-if="isTranslated"
             class="typicalWrapper lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed sm:tracking-relaxed dark:text-gray-300"
-            :steps="[$t('Aboutme'),200]"
+            :steps="[$t('Aboutme'),1000]"
             :wrapper="'h6'"
           >
           </typical>

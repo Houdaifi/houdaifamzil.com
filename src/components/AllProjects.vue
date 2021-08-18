@@ -23,7 +23,7 @@
                     </div>
                     <div>
                         <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consequuntur aut alias reiciendis doloremque aperiam tempore vel sed voluptatem doloribus minus deserunt veniam et quibusdam expedita dolor, atque ex nam esse culpa cupiditate exercitationem. Natus, delectus.
+                            {{$t('DecathlonProject')}}
                         </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     </div>
                     <div>
                         <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consequuntur aut alias reiciendis doloremque aperiam tempore vel sed voluptatem doloribus minus deserunt veniam et quibusdam expedita dolor, atque ex nam esse culpa cupiditate exercitationem. Natus, delectus.
+                            {{$t('BekoProject')}}
                         </p>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                     </div>
                     <div>
                         <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis consequuntur aut alias reiciendis doloremque aperiam tempore vel sed voluptatem doloribus minus deserunt veniam et quibusdam expedita dolor, atque ex nam esse culpa cupiditate exercitationem. Natus, delectus.
+                            {{$t('TriviProject')}}
                         </p>
                     </div>
                 </div>

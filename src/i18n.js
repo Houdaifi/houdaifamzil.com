@@ -27,6 +27,20 @@ const messages = {
 
         Decathlon: 'Decathlon',
 
+        DecathlonProject: 'An Android application made for Decathlon Tangier to facilitate and organize the calls diffusion in the store.The design is based on Decathlon colors.\r\nCalls types: Ordinary calls, Emergency calls, Covid-19 construction guidance.Technologies used:JAVA, XML',
+
+        BekoProject: 'A clone of beko famous company website, made it to develop my skills on Bootstrap and javascript\n Technologies used: HTML, CSS, Bootstrap, Javascript',
+
+        TriviProject: "Trivi templates is an Android application made for people who love to share Instagram templates like q&a questions, This or That games, My favorites..., Gifs challenges on their stories.\
+        Feautres Included: \
+          -Dividing app by categories.\
+          -Navigate smoothly between templates.\
+          -Download or direct share the template.\
+          -Receive notifications when new templates are added.\
+          -App rating.\
+        Technlogies used:\
+        Flutter",
+
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
         Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",

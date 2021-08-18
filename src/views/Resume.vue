@@ -7,7 +7,7 @@
           <!-- Image and name -->
           <div class="flex flex-col justify-start items-center pb-8">
             <div>
-              <img class="inline-block w-52 h-52 lg:h-72 lg:w-72 rounded-full ring-2 ring-white object-cover mb-4" src="../assets/myRobot.jpg" alt="ME">
+              <img class="inline-block w-52 h-52 xl:h-72 xl:w-72 rounded-full ring-2 ring-white object-cover mb-4" src="../assets/myRobot.jpg" alt="ME">
             </div>
             <div>
               <h1 class="text-gray-800 text-3xl font-semibold mb-2">{{$t('myName')}}</h1>
