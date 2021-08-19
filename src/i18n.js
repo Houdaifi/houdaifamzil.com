@@ -87,7 +87,9 @@ const messages = {
 
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
-        Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
+        Aboutme: "J'ai commencé à écrire mes premières lignes de code il y a 5 ans, en commençant par apprendre le développement d'applications Android natives à Flutter, \
+        où j'ai réalisé plusieurs applications pour des entreprises locales et pour le Play Store. \
+        Récemment, j'ai eu l'occasion de rejoindre une grande équipe de développeurs pour mon premier emploi à temps plein, où je suis devenu plus intéressé par le développement web.",
         iwork: "Je travaille avec...",
         SeeMore: 'Voir Plus',
 
@@ -138,7 +140,9 @@ const messages = {
 
         Hello: 'Hola 👋🏼! Soy',
         myName: 'Houdaifa Amzil',
-        Aboutme: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus est sed eaque distinctio saepe, commodi, nisi enim aliquam quae labore quidem vitae tempore! Fuga.',
+        Aboutme: "Comencé a escribir mis primeras líneas de código hace 5 años, empezando por aprender el desarrollo de aplicaciones nativas para Android con Flutter, \
+        donde hice varias aplicaciones para empresas locales y para Play Store.\
+        Recientemente tuve la oportunidad de unirme a un gran equipo de desarrolladores en mi primer trabajo a tiempo completo, donde me interesé más en el desarrollo web.",
         iwork: 'Yo trabajo con...',
         SeeMore: 'Ver más',
 

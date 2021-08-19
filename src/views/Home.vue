@@ -79,6 +79,9 @@ export default {
   mounted(){
     window.addEventListener('scroll', this.$refs.scrollTop.scrollListener)
   },
+  destroyed(){
+    this.$store.commit('ToggleIsTranslated')
+  }
 };
 </script>
 

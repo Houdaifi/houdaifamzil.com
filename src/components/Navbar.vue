@@ -14,7 +14,7 @@
       </button>
       <v-drop-down ref="dropDown" class="pl-12">
           <div slot="trigger">
-            <flag class="text-xl" :iso="choosenLanguage" />
+            <flag class="text-xl" :iso="choosenLanguage" /> <span v-if="choosenLan == ''">English</span> <span v-else>{{ $t(choosenLan) }}</span>
           </div>
           <div slot="menu" class="dark:bg-gray-800">
             <div class="flex items-center space-x-2 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 px-6 py-2"
@@ -48,6 +48,7 @@ export default {
       return{
         IamNotInHome: true,
         choosenLanguage: "",
+        choosenLan: "",
         isDarkMode: false,
         languages: [
           // { flag: 'ma', language: 'ma', title: 'Tifinagh' },
@@ -71,6 +72,7 @@ export default {
       changeLocale(index) {
         i18n.locale = this.languages[index].language
         this.choosenLanguage = this.languages[index].flag
+        this.choosenLan = this.languages[index].title
         this.$store.commit('ToggleIsTranslated')
         this.$refs.dropDown.hide()
       },

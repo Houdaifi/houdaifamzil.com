@@ -6,7 +6,7 @@
                 <div class="max-w-md mx-auto">
                     <div>
                     <h1 class="text-3xl font-extrabold">Contact</h1>
-                    <p class="mt-3 font-sans">I’m interested in freelance opportunities – especially ambitious or large projects. However, if you just want to say hi or have a question, don’t hesitate to contact me.</p>
+                    <p class="mt-3 md:text-xl xl:leading-loose xl:tracking-tight">I’m interested in freelance opportunities – especially ambitious or large projects. However, if you just want to say hi or have a question, don’t hesitate to contact me.</p>
                     <hr class="mt-3 border-gray-300">
                     </div>
                     <div class="divide-y divide-gray-200">
