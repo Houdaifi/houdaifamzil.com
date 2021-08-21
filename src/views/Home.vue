@@ -13,13 +13,13 @@
           <h1 class="text-turquoise text-4xl 2xl:text-6xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
         </div>
         <div>
-          <typical v-if="isTranslated"
+          <!-- <typical v-if="isTranslated"
             class="typicalWrapper lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed sm:tracking-relaxed dark:text-gray-300"
             :steps="[$t('Aboutme'),1000]"
             :wrapper="'h6'"
           >
-          </typical>
-          <p v-else class="lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed xl:tracking-tight sm:tracking-relaxed dark:text-gray-300">{{$t('Aboutme')}}</p>
+          </typical> -->
+          <p  class="lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed xl:tracking-tight sm:tracking-relaxed dark:text-gray-300">{{$t('Aboutme')}}</p>
         </div>
         
         <!-- See my resume -->
@@ -58,7 +58,7 @@
 
 <script>
 import {mapGetters} from 'vuex'
-import typical from "vue-typical"
+// import typical from "vue-typical"
 import skills from "../components/Skills.vue"
 import VLinks from '../components/links.vue'
 import ScrollToTop from '../components/ScrollToTop.vue'
@@ -66,7 +66,7 @@ import ChatWithMe from '../components/ChatWithMe.vue'
 
 export default {
   name: "Home",
-  components: {typical, skills, VLinks, ScrollToTop, ChatWithMe},
+  components: {skills, VLinks, ScrollToTop, ChatWithMe},
   data() {
     return {};
   },

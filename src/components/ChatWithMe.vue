@@ -1,7 +1,7 @@
 <template>
   <div>
-      <div class="relative" v-on-clickaway="hide" @keydown.esc="hide">
-        <div class="fixed rounded-full h-12 w-12 sm:h-16 sm:w-16 flex items-center justify-center right-4 bottom-4 bg-fakhti text-white cursor-pointer" @click="show">  
+      <div class="relative" v-on-clickaway="hide">
+        <div class="fixed rounded-full h-12 w-12 sm:h-16 sm:w-16 flex items-center justify-center right-4 bottom-4 bg-fakhti text-white cursor-pointer" @click="Toggle">  
             <div>
                 <i class="far fa-comment text-white"></i>
             </div>
@@ -75,6 +75,9 @@ export default {
         },
         hide() {
             this.visible = false
+        },
+        Toggle(){
+            this.visible = !this.visible
         },
         writeQuestion(question){
             this.chat.innerHTML += '<div class="flex flex-col items-end"><div class="bg-black text-right rounded-lg text-white p-2">'+this.$i18n.t(question)+'</div></div>'

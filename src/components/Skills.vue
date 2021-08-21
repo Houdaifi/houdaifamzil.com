@@ -10,7 +10,7 @@
       :paginationSize="0"
       :loop="true"
       :speed="2500"
-      :mouseDrag="true"
+      :autoplayHoverPause="false"
     >
       <slide v-for="(skill, index) in skills" :key="index">
         <div @click="getDescription(index)" class="rounded-full flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-8 w-48 h-48 lg:w-52 lg:h-52 mx-6 space-y-6">
