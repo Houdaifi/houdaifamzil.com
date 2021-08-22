@@ -205,7 +205,7 @@ export default {
         {name: 'Salesman', date: '2018-2020', company: 'Decathlon'}
       ],
       formations:[
-        {name: 'LicenceInfo', date: '2020-2021', school: 'ENSA'},
+        {name: 'LicenceInfo', date: '2020-2021', school: 'ENSA Tangier'},
         {name: 'LicenceEco', date: '2016-2020', school: 'Universtiy'},
         {name: 'ArabCoders', date: '2017-2018', school: 'OMAC'}
       ],
