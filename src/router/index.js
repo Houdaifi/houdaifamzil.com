@@ -4,7 +4,7 @@ import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 
 function page(path) {
-  return () => import(/* webpackChunkName: '' */ '../views/'+path+'.vue')
+  return () => import(/* webpackChunkName: '' */ '../views/'+path+'.vue').then(m => m.default || m)
 }
 
 const routes = [
@@ -27,10 +27,17 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: page('Contact')
-  }
+  },
+  {
+    path: '*',
+    name: '404',
+    component: page('404')
+  },
+  
 ]
 
 const router = new VueRouter({
+  mode: 'history',
   routes
 })
 

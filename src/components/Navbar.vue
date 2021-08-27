@@ -14,7 +14,11 @@
       </button>
       <v-drop-down ref="dropDown" class="pl-12">
           <div slot="trigger">
-            <flag class="text-xl" :iso="choosenLanguage" /> <span v-if="choosenLan == ''">English</span> <span v-else>{{ $t(choosenLan) }}</span>
+            <flag class="text-xl" :iso="choosenLanguage" />
+              
+                 <i class="fas fa-chevron-down ml-2"></i>
+              
+            <!-- <span v-else>{{ $t(choosenLan) }}</span> -->
           </div>
           <div slot="menu" class="dark:bg-gray-800">
             <div class="flex items-center space-x-2 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 px-6 py-2"

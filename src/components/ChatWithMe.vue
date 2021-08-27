@@ -29,7 +29,7 @@
                 </div>
 
                 <div class="flex flex-col items-center space-y-4">
-                    <div @click="repondre(index)" class="bg-gray-700 text-white cursor-pointer hover:bg-gray-800 rounded-lg  p-2" v-for="(question, index) in questions" :key="index">
+                    <div @click="repondre(index)" class="bg-gray-700 text-white cursor-pointer hover:bg-black rounded-lg  p-2" v-for="(question, index) in questions" :key="index">
                         {{$t(question)}}
                     </div>
                     <router-link to="Contact" :class="[{'animate-bounce': isToContact}]" class="bg-gray-700 text-white cursor-pointer hover:bg-gray-800 rounded-lg p-2">
@@ -59,9 +59,9 @@ export default {
             visible:false,
             isToContact: false,
             messages:["RobotHello", 'helpU'],
-            questions:['sayHi', 'TellJoke','Based','hireU'],
+            questions:['sayHi','Based','hireU'],
             askedQuestions:[],
-            responses:["ReponseHi", 'Joke', "ResponseBased", "ResponsehireU"],
+            responses:["ReponseHi", "ResponseBased", "ResponsehireU"],
         }
     },
     computed:{

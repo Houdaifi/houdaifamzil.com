@@ -22,7 +22,6 @@ const messages = {
 
         sayHi:'Just wanted to say Hi 👋🏼',
         hireU: "i'd like to hire you 💼 ",
-        TellJoke: 'Tell me a joke',
         Based: 'Where are you based ?',
 
         Decathlon: 'Decathlon',
@@ -43,7 +42,6 @@ const messages = {
 
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
-        Joke: "Q: What's the object-oriented way to become wealthy ?<br> A: Inheritance 😂😂😂",
         ResponsehireU: "Great, Contact me and let get that work done 💪",
 
         Salesman: 'Salesman',
@@ -72,6 +70,9 @@ const messages = {
         Native: 'Native',
         Advanced: 'C1',
         Intermediate: 'B2',
+
+        Back: 'Back to Homepage',
+        NotFound: 'Sorry, The page you are looking for does not exist'
 
     },
     'fr': {
@@ -127,7 +128,10 @@ const messages = {
         LicenceInfo: 'Licence en Technologie de Conception et de Développement Web & Mobile',
         LicenceEco: "Licence d'études fondamentales en sciences economiques et gestion",
         Universtiy: 'Université Abdelmalek Saadi',
-        OMAC: 'Un million de codeurs arabes'
+        OMAC: 'Un million de codeurs arabes',
+
+        Back: "Retour à l'accueil",
+        NotFound: "Désolé, la page que vous recherchez n'existe pas."
     },
     'es': {
         Skills: 'Habilidades',
@@ -171,7 +175,10 @@ const messages = {
         LicenceInfo: 'Licenciatura en Diseño y Desarrollo de Páginas Web y Móviles',
         LicenceEco: "Licencia de estudios básicos en ciencias económicas y de gestión",
         Universtiy: 'Universidad Abdelmalek Saadi',
-        OMAC: 'Un millón de codificadores árabes'
+        OMAC: 'Un millón de codificadores árabes',
+
+        Back: "Volver a la página principal",
+        NotFound: "Lo sentimos, la página que busca no existe"
     },
     'ar': {
         Home: 'الرئيسية',
@@ -196,7 +203,6 @@ const messages = {
 
         sayHi: '👋🏼أردت فقط أن أقول مرحبا',
         Based:'أين تقطن ؟',
-        TellJoke: 'أخبرني نكتة',
         hireU: '💼 أود توظيفك',
         // End Robot chat
 
@@ -232,6 +238,9 @@ const messages = {
         Native: 'اللغة الأم',
         Advanced: 'C1',
         Intermediate: 'B2',
+
+        Back: "العودة إلى الصفحة الرئيسية ",
+        NotFound: "عذرا ، الصفحة التي تبحث عنها غير موجودة "
 
     },
 };
