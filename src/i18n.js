@@ -5,7 +5,7 @@ Vue.use(VueI18n);
 
 const messages = {
     'en': {
-        Hello: "Hi 👋🏼! I'am",
+        Hello: "Hi 👋🏼! I am",
         myName: 'Houdaifa Amzil',
         job: 'Junior Full Stack Developer',
         Aboutme: 'I started to write my first lines of code 5 years ago, starting by learning native Android app developement to Flutter, where i made several apps for local companies and for Play Store.'+

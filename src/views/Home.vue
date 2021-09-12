@@ -23,7 +23,7 @@
         </div>
         
         <!-- See my resume -->
-        <button @click="goToResume" class="bg-transparent lg:w-1/3 w-full hover:bg-turquoise font-semibold uppercase hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
+        <button @click="goToResume" class="bg-transparent w-full 2xl:w-1/3 hover:bg-turquoise font-semibold uppercase hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
           {{$t('seeResume')}}
         </button>
 

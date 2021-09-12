@@ -28,11 +28,11 @@ const routes = [
     name: 'Contact',
     component: page('Contact')
   },
-  {
-    path: '*',
-    name: '404',
-    component: page('404')
-  },
+  // {
+  //   path: '*',
+  //   name: '404',
+  //   component: page('404')
+  // },
   
 ]
 

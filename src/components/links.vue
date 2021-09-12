@@ -6,7 +6,7 @@
       ></a>
     </div>
     <div>
-      <a href="https://www.linkedin.com/in/houdaifa-amzil" target="_blank"
+      <a href="https://ma.linkedin.com/in/houdaifa-amzil-a4b275158" target="_blank"
         ><i class="fab fa-linkedin text-gray-800 dark:text-blueGray-300 dark:hover:text-turquoise hover:text-turquoise"></i
       ></a>
     </div>
