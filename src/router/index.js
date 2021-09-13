@@ -28,16 +28,15 @@ const routes = [
     name: 'Contact',
     component: page('Contact')
   },
-  // {
-  //   path: '*',
-  //   name: '404',
-  //   component: page('404')
-  // },
+  {
+    path: '*',
+    name: '404',
+    component: page('404')
+  },
   
 ]
 
 const router = new VueRouter({
-  mode: 'history',
   routes
 })
 
