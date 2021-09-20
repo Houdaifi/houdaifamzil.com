@@ -72,8 +72,9 @@ const messages = {
         Intermediate: 'B2',
 
         Back: 'Back to Homepage',
-        NotFound: 'Sorry, The page you are looking for does not exist'
+        NotFound: 'Sorry, The page you are looking for does not exist',
 
+        contactslogan: "I’m interested in freelance opportunities, especially ambitious projects. But if you just want to say hi or have a question, please don’t hesitate to contact me."
     },
     'fr': {
         Skills: 'Compétences',

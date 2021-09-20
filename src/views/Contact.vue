@@ -1,12 +1,12 @@
 <template>
     <div class="py-6 flex flex-col justify-center sm:py-12">
-        <div class="relative py-3 max-w-xl mx-auto">
+        <div class="relative py-3  max-w-xl mx-auto">
             <div class="absolute inset-0 bg-turquoise dark:bg-gray-700 shadow-lg transform -skew-y-6 sm:skew-y-0 -rotate-6 rounded-3xl"></div>
             <div class="relative bg-white shadow-lg dark:shadow-none rounded-3xl p-12 lg:p-20 dark:bg-gray-800 border border-opacity-0 border-gray-300 dark:border-opacity-100">
-                <div class="max-w-md mx-auto">
+                <div class="max-w-md mx-auto ">
                     <div>
                     <h1 class="text-3xl font-extrabold dark:text-gray-300">Contact</h1>
-                    <p class="mt-3 text-gray-500 lg:text-lg xl:leading-relaxed xl:tracking-tight dark:text-gray-300">I’m interested in freelance opportunities – especially ambitious or large projects. However, if you just want to say hi or have a question, don’t hesitate to contact me.</p>
+                    <p class="mt-3 text-gray-500 lg:text-lg xl:leading-relaxed xl:tracking-tight dark:text-gray-300">{{$t('contactslogan')}}</p>
                     <hr class="mt-3 border-gray-300">
                     </div>
                     <div class="divide-y divide-gray-200">
@@ -27,9 +27,9 @@
                             <textarea v-model="message" required class="resize-y text-base py-3 px-4 border focus:outline-none focus:bg-white rounded-md w-full bg-gray-200 dark:bg-gray-700 dark:text-gray-300" placeholder="Your message..."></textarea>
                             
                             <div class="flex items-end justify-end">
-                            <button type="submit" class="bg-fakhti hover:bg-blue-500 text-white font-semibold py-2 px-4 rounded">
-                                Send
-                            </button>
+                                <button type="submit" class="bg-fakhti hover:bg-turquoise text-white font-semibold py-2 px-4 rounded">
+                                    Send
+                                </button>
                             </div>
                             
                         </form>

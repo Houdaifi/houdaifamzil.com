@@ -9,7 +9,8 @@
       :autoplay="true"
       :paginationSize="0"
       :loop="true"
-      :speed="2500"
+      :speed="800"
+      :autoplayTimeout="3000"
       :autoplayHoverPause="false"
     >
       <slide v-for="(skill, index) in skills" :key="index">

@@ -5,7 +5,7 @@
         </h1>
         <div class="flex flex-wrap bg-white dark:bg-gray-700 rounded -mx-px overflow-hidden">
 
-            <div class="w-full hover14 overflow-hidden sm:w-full xl:w-1/2 border-b border-r">
+            <div class="w-full xl:w-1/2 hover14 overflow-hidden border-b border-r">
                 <div>
                     <a target="_blank" href="https://github.com/Houdaifi/Decathlon-voice">
                         <figure>
@@ -15,11 +15,11 @@
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden sm:w-full xl:w-1/2 border-b">
+            <div class="w-full overflow-hidden xl:w-1/2 border-b">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8 ">
                     <div>
                         <h1 class="text-center text-fakhti font-bold text-3xl">Decathlon</h1>
-                        <hr class="my-3">
+                        <hr class="my-3 border-2">
                     </div>
                     <div>
                         <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="w-full hover14 overflow-hidden sm:w-full xl:w-1/2 border-b block xl:hidden">
+            <div class="w-full hover14 overflow-hidden border-b block xl:hidden">
                 <div class="p-4">
                     <a target="_blank" href="https://houdaifi.github.io/Beko-website-clone/">
                         <figure>
@@ -39,11 +39,11 @@
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden sm:w-full xl:w-1/2 border-b border-r">
+            <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
                 <div class="flex flex-col space-y-10 justify-center items-center p-8 mt-8">
                     <div>
                         <h1 class="text-center text-fakhti font-bold text-3xl">Beko</h1>
-                        <hr class="my-3">
+                        <hr class="my-3 border-2">
                     </div>
                     <div>
                         <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
@@ -53,17 +53,17 @@
                 </div>
             </div>
 
-            <div class="w-full hover14 overflow-hidden sm:w-full xl:w-1/2 border-b hidden xl:block">
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b hidden xl:block">
                 <div class="p-4">
                     <a target="_blank" href="https://houdaifi.github.io/Beko-website-clone/">
                         <figure>
-                            <img class="w-full object-contain" src="../assets/beko.png" alt="Beko project">
+                            <img class="w-full" src="../assets/beko.png" alt="Beko project">
                         </figure>
                     </a>
                 </div>
             </div>
 
-            <div class="w-full hover14 overflow-hidden cursor-pointer sm:w-full xl:w-1/2 border-b border-r">
+            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r">
                 <div>
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=prinado.trivi">
                         <figure>
@@ -73,17 +73,51 @@
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden sm:w-full xl:w-1/2 border-b ">
+            <div class="w-full overflow-hidden xl:w-1/2 border-b ">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8">
                     <div>
                         <h1 class="text-center text-fakhti font-bold text-3xl">Trivi Templates</h1>
-                        <hr class="my-3">
+                        <hr class="my-3 border-2">
                     </div>
                     <div>
                         <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
                             {{$t('TriviProject')}}
                         </p>
                     </div>
+                </div>
+            </div>
+
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b xl:hidden">
+                <div class="p-4">
+                    <a target="_blank" href="https://github.com/Houdaifi/Trascot">
+                        <figure>
+                            <img class="w-full " src="../assets/beko.png" alt="Beko project">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+             <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
+                <div class="flex flex-col space-y-10 justify-center items-center p-8 mt-8">
+                    <div>
+                        <h1 class="text-center text-fakhti font-bold text-3xl">Tragefer</h1>
+                        <hr class="my-3 border-2">
+                    </div>
+                    <div>
+                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
+                            {{$t('BekoProject')}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b hidden xl:block">
+                <div class="p-4">
+                    <a target="_blank" href="https://github.com/Houdaifi/Trascot">
+                        <figure>
+                            <img class="w-full " src="../assets/beko.png" alt="Beko project">
+                        </figure>
+                    </a>
                 </div>
             </div>
 

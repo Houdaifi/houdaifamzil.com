@@ -12,13 +12,10 @@
       <button class="rounded-lg bg-turquoise dark:bg-blue-500 hover:bg-fakhti py-2 px-4 text-base text-white font-semibold" @click="goToRouter('Contact')">
         {{$t('Contact')}}
       </button>
-      <v-drop-down ref="dropDown" class="pl-12">
+      <v-drop-down ref="dropDown" class="pl-12 ml-12 sm:ml-0">
           <div slot="trigger">
             <flag class="text-xl" :iso="choosenLanguage" />
-              
-                 <i class="fas fa-chevron-down ml-2"></i>
-              
-            <!-- <span v-else>{{ $t(choosenLan) }}</span> -->
+            <i class="fas fa-chevron-down ml-2"></i>
           </div>
           <div slot="menu" class="dark:bg-gray-800">
             <div class="flex items-center space-x-2 cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-700 px-6 py-2"
@@ -31,7 +28,7 @@
               <div class="text-sm">{{ $t(language.title) }}</div>
             </div>
           </div>
-        </v-drop-down>
+      </v-drop-down>
 
         <i v-if="!isDarkMode" @click="ToogleDarkMode" class="fas fa-moon ml-12 cursor-pointer border px-2 py-1 rounded-xl"></i>
         <i v-else @click="ToogleDarkMode" class="fas fa-sun ml-12 cursor-pointer text-yellow-500 border px-2 py-1 rounded-xl"></i>
