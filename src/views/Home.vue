@@ -42,8 +42,13 @@
     </div>
 
     <!-- Skills Section -->
-    <section id="skills" class="py-14">
+    <section id="skills" >
       <skills/>
+    </section>
+
+    <!-- Projects Section -->
+    <section >
+      <projects/>
     </section>
 
     <!-- Chat with me -->
@@ -63,10 +68,11 @@ import skills from "../components/Skills.vue"
 import VLinks from '../components/links.vue'
 import ScrollToTop from '../components/ScrollToTop.vue'
 import ChatWithMe from '../components/ChatWithMe.vue'
+import Projects from '../components/Projects.vue'
 
 export default {
   name: "Home",
-  components: {skills, VLinks, ScrollToTop, ChatWithMe},
+  components: {skills, VLinks, ScrollToTop, ChatWithMe, Projects},
   data() {
     return {};
   },

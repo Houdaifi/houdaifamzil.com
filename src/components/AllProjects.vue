@@ -22,7 +22,7 @@
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
                             {{$t('DecathlonProject')}}
                         </p>
                     </div>
@@ -46,7 +46,7 @@
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
                             {{$t('BekoProject')}}
                         </p>
                     </div>
@@ -80,7 +80,7 @@
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
                             {{$t('TriviProject')}}
                         </p>
                     </div>
@@ -104,7 +104,7 @@
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="md:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight">
+                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
                             {{$t('BekoProject')}}
                         </p>
                     </div>

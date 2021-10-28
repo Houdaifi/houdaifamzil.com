@@ -4,7 +4,7 @@
       {{$t('iwork')}}
     </h1>
     <carousel
-      :perPageCustom="[[320, 1], [1199, 4]]"
+      :perPageCustom="[[320, 2],[900, 3], [1199, 4]]"
       :mouse-drag="true"
       :autoplay="true"
       :paginationSize="0"
@@ -14,7 +14,7 @@
       :autoplayHoverPause="false"
     >
       <slide v-for="(skill, index) in skills" :key="index">
-        <div @click="getDescription(index)" class="rounded-full flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-8 w-48 h-48 lg:w-52 lg:h-52 mx-6 space-y-6">
+        <div class="rounded-full flex flex-col items-center justify-center bg-white dark:bg-gray-700 p-8 w-48 h-48 lg:w-52 lg:h-52 mx-6 space-y-6">
           <img class="w-1/2" :src="skill.image" />
           <h1 class="text-base dark:text-gray-300">{{ skill.name }}</h1>
         </div>
