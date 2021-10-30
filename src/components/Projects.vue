@@ -18,11 +18,11 @@
             <div class="w-full overflow-hidden xl:w-1/2">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8 ">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-3xl">{{$t('Decathlon')}}</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">{{$t('Decathlon')}}</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="xl:text-xl text-center text-gray-500 dark:text-gray-300 leading-loose xl:leading-loose xl:tracking-tight whitespace-pre-line">
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
                             {{$t('DecathlonProject')}}
                         </p>
                     </div>
@@ -42,11 +42,11 @@
             <div class="w-full overflow-hidden xl:w-1/2">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-3xl">Trivi Templates</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Trivi Templates</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="xl:text-xl text-center text-gray-500 dark:text-gray-300 leading-loose xl:leading-loose xl:tracking-tight whitespace-pre-line">
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
                             {{$t('TriviProject')}}
                         </p>
                     </div>
@@ -66,7 +66,7 @@
         </div>
         
         <div class="flex justify-center items-center py-14 bg-white dark:bg-gray-700">
-             <button @click="goToProjects" class="bg-fakhti text-white hover:bg-turquoise font-semibold uppercase py-2 px-8 rounded">
+             <button @click="goToProjects" class="text-sm bg-fakhti text-white hover:bg-turquoise font-semibold uppercase py-2 px-8 rounded">
                 {{$t('SeeMore')}}
             </button>
         </div>

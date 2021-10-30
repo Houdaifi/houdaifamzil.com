@@ -18,11 +18,11 @@
             <div class="w-full overflow-hidden xl:w-1/2 border-b">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8 ">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-3xl">Decathlon</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Decathlon</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
                             {{$t('DecathlonProject')}}
                         </p>
                     </div>
@@ -42,11 +42,11 @@
             <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
                 <div class="flex flex-col space-y-10 justify-center items-center p-8 mt-8">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-3xl">Beko</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Beko</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
                             {{$t('BekoProject')}}
                         </p>
                     </div>
@@ -76,11 +76,11 @@
             <div class="w-full overflow-hidden xl:w-1/2 border-b ">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-3xl">Trivi Templates</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Trivi Templates</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
                             {{$t('TriviProject')}}
                         </p>
                     </div>
@@ -100,11 +100,11 @@
              <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
                 <div class="flex flex-col space-y-10 justify-center items-center p-8 mt-8">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-3xl">Tragefer</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Tragefer</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
-                        <p style="max-width:500px" class="lg:text-xl text-center text-gray-500 dark:text-gray-300 xl:leading-loose xl:tracking-tight whitespace-pre-line">
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
                             {{$t('BekoProject')}}
                         </p>
                     </div>

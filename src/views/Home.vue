@@ -3,10 +3,10 @@
     
     <section id="home" class="flex flex-col-reverse sm:flex-row justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12 sm:py-16 mx-auto">
       <div class="flex-1 flex flex-col space-y-4">
-        <div>
+        <div class="mt-4 xl:mt-0">
           <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand dark:text-gray-300">
             {{$t('Hello')}}
-            <span class="text-fakhti text-2xl lg:text-4xl tracking-normal font-bold focus-in-expand hover:text-turquoise">{{$t('myName')}}</span>
+            <span class="text-fakhti text-3xl lg:text-4xl tracking-normal font-bold focus-in-expand hover:text-turquoise">{{$t('myName')}}</span>
           </h2>
         </div>
         <div>
@@ -19,7 +19,7 @@
             :wrapper="'h6'"
           >
           </typical> -->
-          <p  class="lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed xl:tracking-tight sm:tracking-relaxed dark:text-gray-300">{{$t('Aboutme')}}</p>
+          <p class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-left whitespace-pre-line">{{$t('Aboutme')}}</p>
         </div>
         
         <!-- See my resume -->

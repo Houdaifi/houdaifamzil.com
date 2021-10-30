@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="relative" v-on-clickaway="hide">
-        <div class="fixed rounded-full h-12 w-12 xl:h-16 xl:w-16 flex items-center justify-center right-4 bottom-4 bg-fakhti text-white cursor-pointer" @click="Toggle">  
+        <div class="fixed rounded-full h-12 w-12 2xl:h-16 2xl:w-16 flex items-center justify-center right-4 bottom-4 bg-fakhti text-white cursor-pointer" @click="Toggle">  
             <div>
                 <i class="far fa-comment text-white"></i>
             </div>

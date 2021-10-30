@@ -37,7 +37,7 @@ const messages = {
         ResponsehireU: "Great, Contact me and let get that work done 💪",
 
         Salesman: 'Salesman',
-
+        ContactMe: 'Contact me',
         Email: 'E-mail',
         Phone: 'Phone',
         PhoneNumber: '+212 634 89 69 98',
@@ -98,6 +98,7 @@ const messages = {
         ResponseBased: "Je suis basé à Tanger,<br> Une belle ville au nord du Maroc, <br> Voici une photo",
         ResponsehireU: "Génial, Contactez moi et Allons faire ce travail 💪",
 
+        ContactMe: 'Contactez-moi',
         Email: 'E-mail',
         Phone: 'Télephone',
         PhoneNumber: '+212 634 89 69 98',
@@ -142,6 +143,7 @@ const messages = {
         iwork: 'Yo trabajo con...',
         SeeMore: 'Ver más',
 
+        ContactMe: 'Contactame',
         Email: 'Correo',
         Phone: 'Teléfono',
         PhoneNumber: '+212 634 89 69 98',
@@ -197,6 +199,7 @@ const messages = {
         hireU: '💼 أود توظيفك',
         // End Robot chat
 
+        ContactMe: 'Contactame',
         Email: 'الإيميل',
         Phone: 'الهاتف',
         PhoneNumber: '+٢١٢ ٦٣٤ ٨٩ ٦٩ ٩٨',
