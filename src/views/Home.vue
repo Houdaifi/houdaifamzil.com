@@ -13,12 +13,6 @@
           <h1 class="text-turquoise text-4xl 2xl:text-6xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
         </div>
         <div>
-          <!-- <typical v-if="isTranslated"
-            class="typicalWrapper lg:text-xl text-left text-gray-500 lg:leading-loose sm:leading-relaxed sm:tracking-relaxed dark:text-gray-300"
-            :steps="[$t('Aboutme'),1000]"
-            :wrapper="'h6'"
-          >
-          </typical> -->
           <p class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-left whitespace-pre-line">{{$t('Aboutme')}}</p>
         </div>
         

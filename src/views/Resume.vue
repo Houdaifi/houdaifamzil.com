@@ -23,15 +23,15 @@
             <div><h1 class="text-lg font-semibold">Contact</h1></div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-envelope text-lg"></i></div>
-              <div><h4 class="text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">houdaifaamzil@gmail.com</h4></div>
+              <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">houdaifaamzil@gmail.com</h4></div>
             </div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-phone-alt text-lg"></i></div>
-              <div><h4 class="text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('PhoneNumber')}}</h4></div>
+              <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('PhoneNumber')}}</h4></div>
             </div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-home text-lg"></i></div>
-              <div><h4 class="text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{ $t('FullAdresse') }}</h4></div>
+              <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{ $t('FullAdresse') }}</h4></div>
             </div>
           </div>
 
@@ -41,11 +41,11 @@
             <div><h1 class="text-lg font-semibold">Personal</h1></div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-baby text-lg"></i></div>
-              <div><h4 class="text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('Born')}}</h4></div>
+              <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('Born')}}</h4></div>
             </div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-male text-lg"></i></div>
-              <div><h4 class="text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('Single')}}</h4></div>
+              <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('Single')}}</h4></div>
             </div>
           </div>
 
@@ -54,15 +54,15 @@
             <div><h1 class="text-lg font-semibold">Web</h1></div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fab fa-twitter text-lg"></i></div>
-              <div><a href="https://twitter.com/H_amzil14" target="_blank" class="text-base hover:text-turquoise text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">Twitter</a></div>
+              <div><a href="https://twitter.com/H_amzil14" target="_blank" class="text-sm lg:text-base hover:text-turquoise text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">Twitter</a></div>
             </div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fab fa-linkedin text-lg"></i></div>
-              <div><a href="https://www.linkedin.com/in/houdaifa-amzil-a4b275158/" target="_blank" class="text-base hover:text-turquoise text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">LinkedIn</a></div>
+              <div><a href="https://www.linkedin.com/in/houdaifa-amzil-a4b275158/" target="_blank" class="text-sm lg:text-base hover:text-turquoise text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">LinkedIn</a></div>
             </div>
             <div class="flex justify-around items-center space-x-4">
               <div><i class="fab fa-github text-lg"></i></div>
-              <div><a href="https://github.com/Houdaifi" target="_blank" class="text-base hover:text-turquoise text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">Github</a></div>
+              <div><a href="https://github.com/Houdaifi" target="_blank" class="text-sm lg:text-base hover:text-turquoise text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">Github</a></div>
             </div>
           </div>
 
@@ -70,8 +70,8 @@
           <div class="flex flex-col justify-start items-start pl-8 md:pl-2 xl:pl-12 py-4">
             <div><h1 class="text-lg font-semibold mb-4">Languages</h1></div>
             <div class="flex mb-3" v-for="(language, index) in languages" :key="index">
-              <div><h2 class="text-base font-semibold lg:leading-loose leading-relaxed tracking-relaxed">{{$t(language.name)}} :</h2></div>
-              <div class="text-gray-700 ml-2 mt-1">{{$t(language.level)}}</div>
+              <div><h2 class="text-sm lg:text-base font-semibold lg:leading-loose leading-relaxed tracking-relaxed">{{$t(language.name)}} :</h2></div>
+              <div class="text-sm lg:text-base text-gray-700 ml-2 mt-1">{{$t(language.level)}}</div>
             </div>
           </div>
 
@@ -83,7 +83,7 @@
           <!-- Profile -->
           <div class="space-y-4">
             <h1 class="text-xl border-l-8 mb-8 border-green-200">{{$t('Profile')}}</h1>
-            <p class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed">{{$t('Aboutme')}}</p>
+            <p class="text-sm lg:text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed lg:leading-loose lg:tracking-relaxed">{{$t('Aboutme')}}</p>
             <hr class="border-gray-200">
           </div>
 
@@ -91,9 +91,9 @@
           <div class="space-y-4 mt-8">
             <h1 class="text-xl border-l-8 border-green-200">{{$t('Experience')}}</h1>
             
-            <div class="flex space-x-8 md:space-x-14 pt-8 pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-base" v-for="(experience,index) in experiences" :key="index">
+            <div class="flex space-x-8 md:space-x-14 pt-8 pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-sm lg:text-base" v-for="(experience,index) in experiences" :key="index">
               <div>
-                <h2 style="max-width:50px;" class="text-base md:text-lg">{{$t(experience.date)}}</h2>
+                <h2 style="max-width:50px;" class="text-sm lg:text-base md:text-lg">{{$t(experience.date)}}</h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>
@@ -108,9 +108,9 @@
           <div class="space-y-4 mt-8">
             <h1 class="text-xl border-l-8 border-green-200">{{$t('Formation')}}</h1>
             
-            <div class="flex space-x-8 md:space-x-14 pt-8 pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-base" v-for="(formation,index) in formations" :key="index">
+            <div class="flex space-x-8 md:space-x-14 pt-8 pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-sm lg:text-base" v-for="(formation,index) in formations" :key="index">
               <div class="flex space-x-4">
-                <h2 style="max-width:50px;" class="text-base md:text-lg dark:text-gray-300">{{$t(formation.date)}}</h2>
+                <h2 style="max-width:50px;" class="text-sm lg:text-base md:text-lg dark:text-gray-300">{{$t(formation.date)}}</h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>
@@ -128,13 +128,13 @@
             <div class="relative pt-8">
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Javascript</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Javascript</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Vue JS</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Vue JS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -143,13 +143,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Tailwind CSS</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Tailwind CSS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Bootstrap</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Bootstrap</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -158,13 +158,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Laravel</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Laravel</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:65%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">MySQL</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">MySQL</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -173,13 +173,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Android Developement</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Android Developement</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-base mb-2 dark:text-gray-300">Flutter</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Flutter</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>

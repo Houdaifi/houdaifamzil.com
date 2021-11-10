@@ -6,13 +6,12 @@
       </h1>
     </div>
     <div>
-      <router-link class="pr-8 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link>
-      <router-link class="pr-8 font-light hover:text-gray-500" to="projects">{{$t('Projects')}}</router-link>
-      <router-link class="pr-8 font-light hover:text-gray-500" to="/resume">{{$t('Resume')}}</router-link>
-      <button class="rounded-lg bg-turquoise dark:bg-blue-500 hover:bg-fakhti py-2 px-4 text-base text-white font-semibold" @click="goToRouter('Contact')">
+      <router-link class="pr-6 font-light hover:text-gray-500" to="/">{{$t('Home')}}</router-link>
+      <router-link class="pr-6 font-light hover:text-gray-500" to="/resume">{{$t('Resume')}}</router-link>
+      <button class="rounded-lg bg-turquoise dark:bg-blue-500 hover:bg-fakhti py-1 px-2 lg:py-2 lg:px-4 text-sm lg:text-base text-white font-semibold" @click="goToRouter('Contact')">
         {{$t('Contact')}}
       </button>
-      <v-drop-down ref="dropDown" class="pl-12 ml-12 sm:ml-0">
+      <v-drop-down ref="dropDown" class="ml-8">
           <div slot="trigger">
             <flag class="text-xl" :iso="choosenLanguage" />
             <i class="fas fa-chevron-down ml-2"></i>
@@ -25,13 +24,13 @@
               <div>
                 <flag class="text-lg" :iso="language.flag" />
               </div>
-              <div class="text-sm">{{ $t(language.title) }}</div>
+              <div class="text-xs lg:text-sm">{{ $t(language.title) }}</div>
             </div>
           </div>
       </v-drop-down>
 
-        <i v-if="!isDarkMode" @click="ToogleDarkMode" class="fas fa-moon ml-12 cursor-pointer border px-2 py-1 rounded-xl"></i>
-        <i v-else @click="ToogleDarkMode" class="fas fa-sun ml-12 cursor-pointer text-yellow-500 border px-2 py-1 rounded-xl"></i>
+      <i v-if="!isDarkMode" @click="ToogleDarkMode" class="fas fa-moon ml-6 cursor-pointer border px-2 py-1 rounded-xl"></i>
+      <i v-else @click="ToogleDarkMode" class="fas fa-sun ml-6 cursor-pointer text-yellow-500 border px-2 py-1 rounded-xl"></i>
 
     </div>
   </nav>

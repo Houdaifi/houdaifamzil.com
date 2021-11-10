@@ -14,11 +14,6 @@ const routes = [
     component: page('Home')
   },
   {
-    path: '/projects',
-    name: 'Projects',
-    component: page('Projects')
-  },
-  {
     path: '/resume',
     name: 'Resume',
     component: page('Resume')

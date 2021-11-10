@@ -5,7 +5,7 @@
         </h1>
         <div class="flex flex-wrap bg-white dark:bg-gray-700 rounded -mx-px overflow-hidden">
 
-            <div class="w-full xl:w-1/2 hover14 overflow-hidden">
+            <div class="w-full xl:w-1/2 hover14 overflow-hidden border-b border-r">
                 <div>
                     <a target="_blank" href="https://github.com/Houdaifi/Decathlon-voice">
                         <figure>
@@ -15,10 +15,10 @@
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden xl:w-1/2">
+            <div class="w-full overflow-hidden xl:w-1/2 border-b">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8 ">
                     <div>
-                        <h1 class="text-center text-fakhti font-bold text-2xl">{{$t('Decathlon')}}</h1>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Decathlon</h1>
                         <hr class="my-3 border-2">
                     </div>
                     <div>
@@ -29,17 +29,51 @@
                 </div>
             </div>
 
-            <div class="w-full hover14 overflow-hidden cursor-pointer xl:hidden">
-                <div>
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=prinado.trivi">
+            <div class="w-full hover14 overflow-hidden border-b block xl:hidden">
+                <div class="p-4">
+                    <a target="_blank" href="https://houdaifi.github.io/Beko-website-clone/">
                         <figure>
-                            <img class="w-full" src="../assets/trivi.png" alt="Trivi project">
+                            <img class="w-full object-contain" src="../assets/beko.png" alt="Beko project">
                         </figure>
                     </a>
                 </div>
             </div>
 
-            <div class="w-full overflow-hidden xl:w-1/2">
+            <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
+                <div class="flex flex-col space-y-10 justify-center items-center p-8 mt-8">
+                    <div>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Beko</h1>
+                        <hr class="my-3 border-2">
+                    </div>
+                    <div>
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
+                            {{$t('BekoProject')}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b hidden xl:block">
+                <div class="p-4">
+                    <a target="_blank" href="https://houdaifi.github.io/Beko-website-clone/">
+                        <figure>
+                            <img class="w-full" src="../assets/beko.png" alt="Beko project">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 border-b border-r">
+                <div>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=prinado.trivi">
+                        <figure>
+                            <img class="w-full " src="../assets/trivi.png" alt="Trivi project">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
+            <div class="w-full overflow-hidden xl:w-1/2 border-b ">
                 <div class="flex flex-col justify-center items-center space-y-10 p-8 mt-8">
                     <div>
                         <h1 class="text-center text-fakhti font-bold text-2xl">Trivi Templates</h1>
@@ -53,22 +87,40 @@
                 </div>
             </div>
 
-            <div class="w-full hover14 overflow-hidden cursor-pointer xl:w-1/2 hidden xl:block">
-                <div>
-                    <a target="_blank" href="https://play.google.com/store/apps/details?id=prinado.trivi">
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b xl:hidden">
+                <div class="p-4">
+                    <a target="_blank" href="https://github.com/Houdaifi/Trascot">
                         <figure>
-                            <img class="w-full" src="../assets/trivi.png" alt="Trivi project">
+                            <img class="w-full " src="../assets/restauration.png" alt="Restauration project">
                         </figure>
                     </a>
                 </div>
             </div>
 
-        </div>
-        
-        <div class="flex justify-center items-center py-14 bg-white dark:bg-gray-700">
-             <button @click="goToProjects" class="text-sm bg-fakhti text-white hover:bg-turquoise font-semibold uppercase py-2 px-8 rounded">
-                {{$t('SeeMore')}}
-            </button>
+             <div class="w-full overflow-hidden xl:w-1/2 border-b border-r">
+                <div class="flex flex-col space-y-10 justify-center items-center p-8 mt-8">
+                    <div>
+                        <h1 class="text-center text-fakhti font-bold text-2xl">Restauration App</h1>
+                        <hr class="my-3 border-2">
+                    </div>
+                    <div>
+                        <p style="max-width:500px" class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-center whitespace-pre-line">
+                            {{$t('BekoProject')}}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-full hover14 overflow-hidden xl:w-1/2 border-b hidden xl:block">
+                <div class="p-4">
+                    <a target="_blank" href="https://github.com/Houdaifi/Trascot">
+                        <figure>
+                            <img class="w-full" src="../assets/restauration.png" alt="Restauration project">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+
         </div>
         
       </div>

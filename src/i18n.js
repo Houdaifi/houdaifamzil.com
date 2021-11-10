@@ -82,8 +82,8 @@ const messages = {
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
         Aboutme: "J'ai commencé à écrire mes premières lignes de code il y a 5 ans, en commençant par apprendre le développement d'applications Android natives à Flutter, \
-        où j'ai réalisé plusieurs applications pour des entreprises locales et pour le Play Store. \
-        Récemment, j'ai eu l'occasion de rejoindre une grande équipe de développeurs pour mon premier emploi à temps plein, où je suis devenu plus intéressé par le développement web.",
+                où j'ai réalisé plusieurs applications pour des entreprises locales et pour le Play Store. \
+                Récemment, j'ai eu l'occasion de rejoindre une grande équipe de développeurs pour mon premier emploi à temps plein, où je suis devenu plus intéressé par le développement web.",
         iwork: "Je travaille avec...",
         SeeMore: 'Voir Plus',
 
@@ -124,7 +124,16 @@ const messages = {
         OMAC: 'Un million de codeurs arabes',
 
         Back: "Retour à l'accueil",
-        NotFound: "Désolé, la page que vous recherchez n'existe pas."
+        NotFound: "Désolé, la page que vous recherchez n'existe pas.",
+
+        DecathlonProject: "Une application Android réalisée pour Decathlon Tanger pour faciliter et organiser la diffusion des appels dans le magasin. \n Le design est basé sur les couleurs de Decathlon.\n"  +
+                        "Types d'appels : Appels ordinaires, Appels d'urgence, Conseils de construction Covid-19.  \n Technologies utilisées : JAVA, XML",
+        
+        TriviProject: "Trivi templates est une application Android faite pour les personnes qui aiment partager des templates Instagram comme des questions Q&A, des jeux This or That, My favorites..., des défis Gifs sur leurs stories. \n"+
+                    "Caractéristiques incluses :  -Division de l'application par catégories. -Navigation fluide entre les modèles. -Télécharger ou partager directement le modèle. -Recevoir des notifications lorsque de nouveaux modèles sont ajoutés. \n"+
+                    "-Classement de l'application. Technlogies utilisées : Flutter",
+
+        contactslogan: "Je suis intéressé par les opportunités de travail en freelance, en particulier les projets ambitieux. Mais si vous voulez juste dire bonjour ou si vous avez une question, n'hésitez pas à me contacter."
     },
     'es': {
         Skills: 'Habilidades',
