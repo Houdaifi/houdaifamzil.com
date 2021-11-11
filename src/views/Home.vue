@@ -1,7 +1,7 @@
 <template>
   <div>
     
-    <section id="home" class="flex flex-col-reverse sm:flex-row justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12 sm:py-16 mx-auto">
+    <section id="home" class="flex flex-col-reverse md:flex-row justify-center items-center xl:space-x-44 lg:space-x-24 sm:space-x-8 xl:p-12  mx-auto">
       <div class="flex-1 flex flex-col space-y-4">
         <div class="mt-4 xl:mt-0">
           <h2 class="2xl:text-2xl lg:text-2xl md:text-lg focus-in-expand dark:text-gray-300">
@@ -13,11 +13,11 @@
           <h1 class="text-turquoise text-4xl 2xl:text-6xl tracking-normal font-extrabold focus-in-expand hover:text-fakhti">{{ $t('job') }}</h1>
         </div>
         <div>
-          <p class="text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed text-left whitespace-pre-line">{{$t('Aboutme')}}</p>
+          <p class="text-sm lg:text-base leading-loose tracking-relaxed lg:leading-loose lg:tracking-relaxed text-gray-500 dark:text-gray-300  text-left whitespace-pre-line">{{$t('Aboutme')}}</p>
         </div>
         
         <!-- See my resume -->
-        <button @click="goToResume" class="bg-transparent w-full 2xl:w-1/3 hover:bg-turquoise font-semibold uppercase hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
+        <button @click="goToResume" class="text-xs lg:text-base bg-transparent w-full 2xl:w-1/3 hover:bg-turquoise font-semibold uppercase hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
           {{$t('seeResume')}}
         </button>
 
@@ -26,7 +26,7 @@
         
       </div>
       <div class="flex-1">
-        <img class="2xl:w-5/6 w-full slit-in-diagonal-1 rounded-lg" src="../assets/me2.jpg" alt="Me"/>
+        <img class="2xl:w-5/6 w-full slit-in-diagonal-1 rounded-lg" src="../assets/me_home.jpg" alt="Me"/>
       </div>
     </section>
 

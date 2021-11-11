@@ -32,6 +32,9 @@ const messages = {
 
         TriviProject: "Trivi templates is an Android application made for people who love to share Instagram templates like q&a questions, This or That games, My favorites..., Gifs challenges on their stories. \n Feautres Included:  \n -Dividing app by categories. \n -Navigate smoothly between templates. \n -Download or direct share the template. \n -Receive notifications when new templates are added. \n -App rating. \n Technlogies used: Flutter",
 
+        RestaurationProject: "A restoration application, where the administrator add the menu from the web interface and the customer will be able to consult the list of available products, "+
+                            "add them to a shopping cart and validate the order by entering his details for delivery. ",
+
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
         ResponsehireU: "Great, Contact me and let get that work done 💪",
@@ -133,6 +136,9 @@ const messages = {
                     "Caractéristiques incluses :  -Division de l'application par catégories. -Navigation fluide entre les modèles. -Télécharger ou partager directement le modèle. -Recevoir des notifications lorsque de nouveaux modèles sont ajoutés. \n"+
                     "-Classement de l'application. Technlogies utilisées : Flutter",
 
+        RestaurationProject: "Il s’agit d’une application de restauration, où l’administrateur alimente la base de données depuis l’interface web et le client sera en mesure de consulter la liste des produits disponibles, \n" +
+                            "de les ajouter dans un panier et de valider la commande en entrant ses coordonnées pour livraison.",
+
         contactslogan: "Je suis intéressé par les opportunités de travail en freelance, en particulier les projets ambitieux. Mais si vous voulez juste dire bonjour ou si vous avez une question, n'hésitez pas à me contacter."
     },
     'es': {
@@ -180,7 +186,17 @@ const messages = {
         OMAC: 'Un millón de codificadores árabes',
 
         Back: "Volver a la página principal",
-        NotFound: "Lo sentimos, la página que busca no existe"
+        NotFound: "Lo sentimos, la página que busca no existe",
+        
+        DecathlonProject: "Une application Android réalisée pour Decathlon Tanger pour faciliter et organiser la diffusion des appels dans le magasin. \n Le design est basé sur les couleurs de Decathlon.\n"  +
+                        "Types d'appels : Appels ordinaires, Appels d'urgence, Conseils de construction Covid-19.  \n Technologies utilisées : JAVA, XML",
+        
+        TriviProject: "Trivi templates est une application Android faite pour les personnes qui aiment partager des templates Instagram comme des questions Q&A, des jeux This or That, My favorites..., des défis Gifs sur leurs stories. \n"+
+                    "Caractéristiques incluses :  -Division de l'application par catégories. -Navigation fluide entre les modèles. -Télécharger ou partager directement le modèle. -Recevoir des notifications lorsque de nouveaux modèles sont ajoutés. \n"+
+                    "-Classement de l'application. Technlogies utilisées : Flutter",
+
+        RestaurationProject: "Una aplicación de restauración, donde el administrador añade el menú desde la interfaz web y el cliente podrá consultar la lista de productos disponibles, \n"+
+                            "añadirlos a un carrito de la compra y validar el pedido introduciendo sus datos para la entrega."
     },
     'ar': {
         Home: 'الرئيسية',

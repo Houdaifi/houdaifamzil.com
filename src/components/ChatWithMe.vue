@@ -9,7 +9,7 @@
         <div class="fixed flex flex-col right-20 bottom-14 w-80 shadow-xl" v-show="visible">
             <div class="flex items-center px-4 rounded-t-lg py-5 bg-gray-500 dark:bg-gray-700">
                 <div>
-                    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white object-cover" src="../assets/myRobot.jpg" alt="ME">
+                    <img class="inline-block h-12 w-12 rounded-full ring-2 ring-white object-cover" src="../assets/me.jpg" alt="ME">
                 </div>
                 <div class="flex-shrink ml-4 font-semibold text-white text-xl">
                     {{$t('myName')}}

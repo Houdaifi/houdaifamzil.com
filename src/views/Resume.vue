@@ -7,7 +7,7 @@
           <!-- Image and name -->
           <div class="flex flex-col justify-start items-center pb-8">
             <div>
-              <img class="inline-block w-52 h-52 xl:h-72 xl:w-72 rounded-full ring-2 ring-white object-cover mb-4" src="../assets/myRobot.jpg" alt="ME">
+              <img class="inline-block w-52 h-52 xl:h-64 xl:w-64 rounded-full ring-2 ring-white object-cover mb-4" src="../assets/me.jpg" alt="ME">
             </div>
             <div>
               <h1 class="text-gray-800 text-xl font-semibold mb-2">{{$t('myName')}}</h1>
@@ -91,9 +91,9 @@
           <div class="space-y-4 mt-8">
             <h1 class="text-xl border-l-8 border-green-200">{{$t('Experience')}}</h1>
             
-            <div class="flex space-x-8 md:space-x-14 pt-8 pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-sm lg:text-base" v-for="(experience,index) in experiences" :key="index">
+            <div class="flex space-x-8 md:space-x-14 pt-8 pl-2 lg:pl-8 text-gray-500 dark:text-gray-300 text-sm lg:text-base" v-for="(experience,index) in experiences" :key="index">
               <div>
-                <h2 style="max-width:50px;" class="text-sm lg:text-base md:text-lg">{{$t(experience.date)}}</h2>
+                <h2 style="max-width:50px;" class="text-xs lg:text-base md:text-lg">{{$t(experience.date)}}</h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>
@@ -110,7 +110,7 @@
             
             <div class="flex space-x-8 md:space-x-14 pt-8 pl-4 lg:pl-8 text-gray-500 dark:text-gray-300 text-sm lg:text-base" v-for="(formation,index) in formations" :key="index">
               <div class="flex space-x-4">
-                <h2 style="max-width:50px;" class="text-sm lg:text-base md:text-lg dark:text-gray-300">{{$t(formation.date)}}</h2>
+                <h2 style="max-width:50px;" class="text-xs lg:text-base md:text-lg dark:text-gray-300">{{$t(formation.date)}}</h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>
@@ -130,7 +130,7 @@
                 <div class="flex-1">
                   <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Javascript</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
@@ -160,7 +160,7 @@
                 <div class="flex-1">
                   <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Laravel</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:65%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:75%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
@@ -173,13 +173,28 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Android Developement</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Java</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:60%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Flutter</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Angular</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex justify-start space-x-12 mb-4 items-center">
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">JQuery</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Wordpress</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
