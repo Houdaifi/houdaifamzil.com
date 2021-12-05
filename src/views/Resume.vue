@@ -93,7 +93,7 @@
             
             <div class="flex space-x-8 md:space-x-14 pt-8 pl-2 lg:pl-8 text-gray-500 dark:text-gray-300 text-sm lg:text-base" v-for="(experience,index) in experiences" :key="index">
               <div>
-                <h2 style="max-width:50px;" class="text-xs lg:text-base md:text-lg">{{$t(experience.date)}}</h2>
+                <h2 style="max-width:50px;" class="text-xs lg:text-base md:text-lg">{{$t(experience.date)}} <span class="invisible">2020</span></h2>
               </div>
               <div class="border border-gray-400"></div>
               <div>

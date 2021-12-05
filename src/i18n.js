@@ -8,8 +8,8 @@ const messages = {
         Hello: "Hi 👋🏼! I am",
         myName: 'Houdaifa Amzil',
         job: 'Junior Full Stack Developer',
-        Aboutme: 'I started to write my first lines of code 5 years ago, starting by learning native Android app developement to Flutter, where i made several apps for local companies and for Play Store.'+
-                ' Recently i had the opportunity to join a great team of developers on my first full time job, where i become more concentrated on Web Developement.',
+        Aboutme: "Based in Tangier, I'm full time full stack web developer with a short freelance experience on Mobile apps development, currently interested on sharpen my skills and write clean code."+
+                "\n Outside of programming i enjoy play League of Legends and Football.",
         iwork: 'I work with...',
         Myprojects: 'Some of my projects...',
         seeResume: 'View Resume',
@@ -24,7 +24,7 @@ const messages = {
         hireU: "i'd like to hire you 💼 ",
         Based: 'Where are you based ?',
 
-        Decathlon: 'Decathlon Voice',
+        Decathlon: 'Decathlon Maroc',
 
         DecathlonProject: "An Android application made for Decathlon Tangier to facilitate and organize the calls diffusion in the store.  \n  The design is based on Decathlon colors.  \n  Calls types: Ordinary calls, Emergency calls, Covid-19 construction guidance.  \n  Technologies used: JAVA, XML",
 
@@ -84,9 +84,8 @@ const messages = {
 
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
-        Aboutme: "J'ai commencé à écrire mes premières lignes de code il y a 5 ans, en commençant par apprendre le développement d'applications Android natives à Flutter, \
-                où j'ai réalisé plusieurs applications pour des entreprises locales et pour le Play Store. \
-                Récemment, j'ai eu l'occasion de rejoindre une grande équipe de développeurs pour mon premier emploi à temps plein, où je suis devenu plus intéressé par le développement web.",
+        Aboutme: "Basé à Tanger, je suis un développeur web full stack à temps plein avec une courte expérience en freelance sur le développement d'applications mobiles, actuellement intéressé à aiguiser mes compétences et à écrire du code propre."+
+                "\n En dehors de la programmation, j'aime jouer à League of Legends et au football.",
         iwork: "Je travaille avec...",
         SeeMore: 'Voir Plus',
 
@@ -152,9 +151,8 @@ const messages = {
 
         Hello: 'Hola 👋🏼! Soy',
         myName: 'Houdaifa Amzil',
-        Aboutme: "Comencé a escribir mis primeras líneas de código hace 5 años, empezando por aprender el desarrollo de aplicaciones nativas para Android con Flutter, \
-        donde hice varias aplicaciones para empresas locales y para Play Store.\
-        Recientemente tuve la oportunidad de unirme a un gran equipo de desarrolladores en mi primer trabajo a tiempo completo, donde me interesé más en el desarrollo web.",
+        Aboutme: "Basado en Tánger, soy desarrollador web full stack a tiempo completo con una corta experiencia como freelance en el desarrollo de aplicaciones móviles, actualmente interesado en afinar mis habilidades y escribir código limpio."+
+                "\n Fuera de la programación me gusta jugar a League of Legends y al fútbol.",
         iwork: 'Yo trabajo con...',
         SeeMore: 'Ver más',
 
@@ -209,7 +207,7 @@ const messages = {
 
         Hello: 'أهلاً 👋🏼!, أنا',
         myName: 'حديفة أمزيل',
-        Aboutme: 'بدأت رحلتي مع البرمجة منذ 5 أعوام، عندما بدأت بتعلم برمجة تطبيقات الهواتف، حيت قمت بتطوير بعض التطبيقات لشركات محلية و نشر بعضها على متجر جوجل ستور.مؤخراً قمت بالإلتحاق بفريق برمجة رائع في أول عمل لي في البرمجة بدوام كامل، حيت صرت مركزاً أكثر على تطوير تطبيقات الويب.',
+        Aboutme: "أقطن في مدينة طنجة، أشتغل حاليا مطور مواقع الويب بدوام كامل مع تجربة سابقة في تطوير تطبيقات الهواتف، حاليا مهتم بصقل مهاراتي و كتابة كود نظيف\n.بعيدا عن البرمجة، أستمتع بلعب الألعاب ألإلكترونية و كرة القدم",
         iwork: '...أعمل ب',
 
         Myprojects: '...بعض من مشاريعي',
