@@ -217,7 +217,7 @@ export default {
     return{
       experiences:[
         {name: 'job', date: '2020-', company: 'Sysbase'},
-        {name: 'Salesman', date: '2018-2020', company: 'Decathlon'}
+        // {name: 'Salesman', date: '2018-2020', company: 'Decathlon'}
       ],
       formations:[
         {name: 'LicenceInfo', date: '2020-2021', school: 'ENSA Tangier'},
