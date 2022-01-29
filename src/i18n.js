@@ -35,6 +35,8 @@ const messages = {
         RestaurationProject: "A restoration application, where the administrator add the menu from the web interface and the customer will be able to consult the list of available products, "+
                             "add them to a shopping cart and validate the order by entering his details for delivery. ",
 
+        TrageferProject: "A website made with VueJS and Tailwind CSS for a national metalic construction company.",
+
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
         ResponsehireU: "Great, Contact me and let get that work done 💪",
@@ -138,6 +140,8 @@ const messages = {
         RestaurationProject: "Il s’agit d’une application de restauration, où l’administrateur alimente la base de données depuis l’interface web et le client sera en mesure de consulter la liste des produits disponibles, \n" +
                             "de les ajouter dans un panier et de valider la commande en entrant ses coordonnées pour livraison.",
 
+        TrageferProject: "Un site web réalisé avec VueJS et Tailwind CSS pour une entreprise nationale de construction métallique.",
+
         contactslogan: "Je suis intéressé par les opportunités de travail en freelance, en particulier les projets ambitieux. Mais si vous voulez juste dire bonjour ou si vous avez une question, n'hésitez pas à me contacter."
     },
     'es': {
@@ -194,7 +198,9 @@ const messages = {
                     "-Classement de l'application. Technlogies utilisées : Flutter",
 
         RestaurationProject: "Una aplicación de restauración, donde el administrador añade el menú desde la interfaz web y el cliente podrá consultar la lista de productos disponibles, \n"+
-                            "añadirlos a un carrito de la compra y validar el pedido introduciendo sus datos para la entrega."
+                            "añadirlos a un carrito de la compra y validar el pedido introduciendo sus datos para la entrega.",
+
+        TrageferProject: "Una web hecha con Vuejs y Tailwind CSS para una empresa nacional de construcción metálica.",
     },
     'ar': {
         Home: 'الرئيسية',

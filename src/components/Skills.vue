@@ -4,7 +4,7 @@
       {{$t('iwork')}}
     </h1>
     <carousel
-      :perPageCustom="[[320, 2],[900, 3], [1199, 4]]"
+      :perPageCustom="[[320, 1],[900, 3], [1199, 4]]"
       :mouse-drag="true"
       :autoplay="true"
       :paginationSize="0"
