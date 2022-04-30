@@ -1,4 +1,22 @@
-# my-portofolio
+## Portfolio
+
+My Portfolio repositry to show my skills and projects.
+Take a look on [houdaifamzil.com](https://www.houdaifamzil.com)
+
+## Built with
+
+- Vue JS
+- Tailwind CSS
+- i18n
+- EmailJS
+
+## Features
+
+- Single-Page (SPA)
+- Multilingual Support(Arabic, English, French, Spanish)
+- Dark mode
+- Chat Bot
+- Full responsive
 
 ## Project setup
 ```
@@ -19,6 +37,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
