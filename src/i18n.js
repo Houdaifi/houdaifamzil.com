@@ -28,7 +28,7 @@ const messages = {
 
         DecathlonProject: "An Android application made for Decathlon Tangier to facilitate and organize the calls diffusion in the store.  \n  The design is based on Decathlon colors.  \n  Calls types: Ordinary calls, Emergency calls, Covid-19 construction guidance.  \n  Technologies used: JAVA, XML",
 
-        BekoProject: 'A clone of beko famous company website, made it to develop my skills on Bootstrap and javascript.  \n  Technologies used: HTML, CSS, Bootstrap, Javascript',
+        GoogleMapsProject: 'Calculate the distance and time between two locations in the map based on travel mode and get the data in an excel file. \n  Built by Vue JS, Google Maps API',
 
         TriviProject: "Trivi templates is an Android application made for people who love to share Instagram templates like q&a questions, This or That games, My favorites..., Gifs challenges on their stories. \n Feautres Included:  \n -Dividing app by categories. \n -Navigate smoothly between templates. \n -Download or direct share the template. \n -Receive notifications when new templates are added. \n -App rating. \n Technlogies used: Flutter",
 
@@ -133,6 +133,8 @@ const messages = {
         DecathlonProject: "Une application Android réalisée pour Decathlon Tanger pour faciliter et organiser la diffusion des appels dans le magasin. \n Le design est basé sur les couleurs de Decathlon.\n"  +
                         "Types d'appels : Appels ordinaires, Appels d'urgence, Conseils de construction Covid-19.  \n Technologies utilisées : JAVA, XML",
         
+        GoogleMapsProject: 'Calculez la distance et le temps entre deux endroits de la carte en fonction du mode de déplacement et récupérez les données dans un fichier excel. \n Développé par Vue JS, Google Maps API',
+
         TriviProject: "Trivi templates est une application Android faite pour les personnes qui aiment partager des templates Instagram comme des questions Q&A, des jeux This or That, My favorites..., des défis Gifs sur leurs stories. \n"+
                     "Caractéristiques incluses :  -Division de l'application par catégories. -Navigation fluide entre les modèles. -Télécharger ou partager directement le modèle. -Recevoir des notifications lorsque de nouveaux modèles sont ajoutés. \n"+
                     "-Classement de l'application. Technlogies utilisées : Flutter",
@@ -193,6 +195,8 @@ const messages = {
         DecathlonProject: "Une application Android réalisée pour Decathlon Tanger pour faciliter et organiser la diffusion des appels dans le magasin. \n Le design est basé sur les couleurs de Decathlon.\n"  +
                         "Types d'appels : Appels ordinaires, Appels d'urgence, Conseils de construction Covid-19.  \n Technologies utilisées : JAVA, XML",
         
+        GoogleMapsProject: 'Calcular la distancia y el tiempo entre dos lugares en el mapa en función del modo de desplazamiento y obtener los datos en un archivo Excel. \n Desarrollado por Vue JS, Google Maps API',
+
         TriviProject: "Trivi templates est une application Android faite pour les personnes qui aiment partager des templates Instagram comme des questions Q&A, des jeux This or That, My favorites..., des défis Gifs sur leurs stories. \n"+
                     "Caractéristiques incluses :  -Division de l'application par catégories. -Navigation fluide entre les modèles. -Télécharger ou partager directement le modèle. -Recevoir des notifications lorsque de nouveaux modèles sont ajoutés. \n"+
                     "-Classement de l'application. Technlogies utilisées : Flutter",

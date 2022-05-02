@@ -41,7 +41,7 @@ export default {
                 { name: "TypeScript", image: require("../assets/typescript.png")},
                 { name: "JQuery", image: require("../assets/jquery.png")},
                 { name: "Vue JS", image: require("../assets/vue.png")},
-                { name: "Angular", image: require("../assets/angular.png")},
+                { name: "React JS", image: require("../assets/reactjs.png")},
                 { name: "Laravel", image: require("../assets/laravel.png")},
                 { name: "Node JS", image: require("../assets/nodejs.png")},
                 { name: "Java", image: require("../assets/java.png")},
