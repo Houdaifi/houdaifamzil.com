@@ -130,7 +130,7 @@
                 <div class="flex-1">
                   <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Javascript</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
@@ -160,7 +160,7 @@
                 <div class="flex-1">
                   <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Laravel</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:75%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
@@ -173,30 +173,30 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Java</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">NodeJS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Angular</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">MongoDB</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
               </div>
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">JQuery</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">React JS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Wordpress</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Redux</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:50%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
               </div>
@@ -217,7 +217,6 @@ export default {
     return{
       experiences:[
         {name: 'job', date: '2020-', company: 'Sysbase'},
-        // {name: 'Salesman', date: '2018-2020', company: 'Decathlon'}
       ],
       formations:[
         {name: 'LicenceInfo', date: '2020-2021', school: 'ENSA Tangier'},
@@ -227,7 +226,7 @@ export default {
       languages:[
         {name: 'Arabic', level: 'Native'},
         {name: 'English', level: 'Advanced'},
-        {name: 'French', level: 'Intermediate'},
+        {name: 'French', level: 'Advanced'},
         {name: 'Spanish', level: 'Intermediate'}
       ]
     }
