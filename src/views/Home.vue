@@ -17,9 +17,9 @@
         </div>
         
         <!-- See my resume -->
-        <button @click="goToResume" class="text-xs lg:text-base bg-transparent w-full 2xl:w-1/3 hover:bg-turquoise font-semibold uppercase hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
+        <a href="https://docs.google.com/document/d/1AdZzHt6mHeqOzILnJRBrsbGI6KoiKbX4/edit?usp=sharing&ouid=101416995698259397654&rtpof=true&sd=true" target="_blank" class="text-xs lg:text-base bg-transparent w-full 2xl:w-1/3 hover:bg-turquoise font-semibold uppercase text-center hover:text-white dark:text-gray-400 dark:hover:text-white py-2 px-8 border border-turquoise hover:border-transparent rounded">
           {{$t('seeResume')}}
-        </button>
+        </a>
 
         <!-- Social media icons -->
         <v-links/>
@@ -74,7 +74,9 @@ export default {
     ...mapGetters({isTranslated: 'isTranslated'})
   },
   methods:{
-    goToResume(){this.$router.push({ name: 'Resume' })}
+    goToResume(){
+      this.$router.push({ name: 'Resume' })
+    }
   },
   mounted(){
     window.addEventListener('scroll', this.$refs.scrollTop.scrollListener)

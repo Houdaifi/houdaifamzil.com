@@ -7,7 +7,7 @@ const messages = {
     'en': {
         Hello: "Hi 👋🏼! I am",
         myName: 'Houdaifa Amzil',
-        job: 'Junior Full Stack Developer',
+        job: 'Full Stack Developer',
         Aboutme: "Based in Tangier, I'm full time full stack web developer with a short freelance experience on Mobile apps development, currently interested on sharpen my skills and write clean code."+
                 "\n Outside of programming i enjoy play League of Legends and Football.",
         iwork: 'I work with...',
@@ -82,7 +82,7 @@ const messages = {
         seeResume: 'Voir Mon CV',
         Myprojects: 'Certains de mes projets...',
 
-        job: 'Développeur Junior Full Stack',
+        job: 'Développeur Full Stack',
 
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
@@ -151,7 +151,7 @@ const messages = {
         Projects: 'Proyectos ',
         Resume: 'CV',
         Contact: 'Contacto',
-        job: 'Junior Full Stack Developer',
+        job: 'Full Stack Developer',
         Myprojects: 'Algunos de mis proyectos...',
         seeResume: 'Ver CV',
 
