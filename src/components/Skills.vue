@@ -42,12 +42,18 @@ export default {
                 { name: "JQuery", image: require("../assets/jquery.png")},
                 { name: "Vue JS", image: require("../assets/vue.png")},
                 { name: "React JS", image: require("../assets/reactjs.png")},
+                { name: "Redux", image: require("../assets/redux.png")},
                 { name: "Laravel", image: require("../assets/laravel.png")},
                 { name: "Node JS", image: require("../assets/nodejs.png")},
+                { name: "Express JS", image: require("../assets/express.png")},
                 { name: "Java", image: require("../assets/java.png")},
                 { name: "MySQL", image: require("../assets/mysql.png")},
                 { name: "Mongo DB", image: require("../assets/mongo_db.png")},
-                { name: "Git", image: require("../assets/git.png")}    
+                { name: "Squelize", image: require("../assets/sequelize.png")},
+                { name: "Redis", image: require("../assets/redis.png")},
+                { name: "NPM", image: require("../assets/npm.png")},
+                { name: "Webpack", image: require("../assets/webpack.png")},
+                { name: "Git", image: require("../assets/git.png")},
             ],
         }
     }

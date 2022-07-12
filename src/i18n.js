@@ -8,7 +8,7 @@ const messages = {
         Hello: "Hi 👋🏼! I am",
         myName: 'Houdaifa Amzil',
         job: 'Full Stack Developer',
-        Aboutme: "Based in Tangier, I'm full time full stack web developer with a short freelance experience on Mobile apps development, currently interested on sharpen my skills and write clean code."+
+        Aboutme: "Based in Tangier 🇲🇦, I'm full time full stack web developer with a short freelance experience on Mobile apps development, currently interested on sharpen my skills and write clean code."+
                 "\n Outside of programming i enjoy play League of Legends and Football.",
         iwork: 'I work with...',
         Myprojects: 'Some of my projects...',
@@ -86,7 +86,7 @@ const messages = {
 
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
-        Aboutme: "Basé à Tanger, je suis un développeur web full stack à temps plein avec une courte expérience en freelance sur le développement d'applications mobiles, actuellement intéressé à aiguiser mes compétences et à écrire du code propre."+
+        Aboutme: "Basé à Tanger 🇲🇦, je suis un développeur web full stack à temps plein avec une courte expérience en freelance sur le développement d'applications mobiles, actuellement intéressé à aiguiser mes compétences et à écrire du code propre."+
                 "\n En dehors de la programmation, j'aime jouer à League of Legends et au football.",
         iwork: "Je travaille avec...",
         SeeMore: 'Voir Plus',
@@ -157,7 +157,7 @@ const messages = {
 
         Hello: 'Hola 👋🏼! Soy',
         myName: 'Houdaifa Amzil',
-        Aboutme: "Basado en Tánger, soy desarrollador web full stack a tiempo completo con una corta experiencia como freelance en el desarrollo de aplicaciones móviles, actualmente interesado en afinar mis habilidades y escribir código limpio."+
+        Aboutme: "Basado en Tánger 🇲🇦, soy desarrollador web full stack a tiempo completo con una corta experiencia como freelance en el desarrollo de aplicaciones móviles, actualmente interesado en afinar mis habilidades y escribir código limpio."+
                 "\n Fuera de la programación me gusta jugar a League of Legends y al fútbol.",
         iwork: 'Yo trabajo con...',
         SeeMore: 'Ver más',
