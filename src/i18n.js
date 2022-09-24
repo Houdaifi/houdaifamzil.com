@@ -36,6 +36,7 @@ const messages = {
                             "add them to a shopping cart and validate the order by entering his details for delivery. ",
 
         TrageferProject: "A website made with VueJS and Tailwind CSS for a national metalic construction company.",
+        AdspoolProject: "Adspool LTD comapny's officiel website",
 
         ReponseHi: 'Well thanks for passing by 😀,<br>I hope you\'ve enjoyed browsing my work. <br>Have a good day 🙏',
         ResponseBased: "I'm based in Tangier, <br> A beautiful city in the north of Morocco, <br> Here is a picture of it",
@@ -143,6 +144,7 @@ const messages = {
                             "de les ajouter dans un panier et de valider la commande en entrant ses coordonnées pour livraison.",
 
         TrageferProject: "Un site web réalisé avec VueJS et Tailwind CSS pour une entreprise nationale de construction métallique.",
+        AdspoolProject: "Site officiel de la société Adspool LTD",
 
         contactslogan: "Je suis intéressé par les opportunités de travail en freelance, en particulier les projets ambitieux. Mais si vous voulez juste dire bonjour ou si vous avez une question, n'hésitez pas à me contacter."
     },
@@ -205,6 +207,7 @@ const messages = {
                             "añadirlos a un carrito de la compra y validar el pedido introduciendo sus datos para la entrega.",
 
         TrageferProject: "Una web hecha con Vuejs y Tailwind CSS para una empresa nacional de construcción metálica.",
+        AdspoolProject: "Sitio web oficial de la empresa Adspool LTD"
     },
     'ar': {
         Home: 'الرئيسية',
@@ -267,7 +270,10 @@ const messages = {
         Intermediate: 'B2',
 
         Back: "العودة إلى الصفحة الرئيسية ",
-        NotFound: "عذرا ، الصفحة التي تبحث عنها غير موجودة "
+        NotFound: "عذرا ، الصفحة التي تبحث عنها غير موجودة ",
+
+        //Projects
+        AdspoolProject: "الموقع الرسمي لشركة Adspool LTD"
 
     },
 };
