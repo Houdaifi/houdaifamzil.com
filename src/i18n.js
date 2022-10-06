@@ -10,6 +10,9 @@ const messages = {
         job: 'Full Stack Developer',
         Aboutme: "Based in Tangier 🇲🇦, I'm full time full stack web developer with a short freelance experience on Mobile apps development, currently interested on sharpen my skills and write clean code."+
                 "\n Outside of programming i enjoy play League of Legends and Football.",
+        Aboutme_Resume: `I have always been passionate about computers and I am interested in all new technologies.
+                My training in school allowed me to acquire the necessary bases to master any programming language, and thanks to my professional experience I was able to work on several projects in different environments.
+                Rigorous and autonomous. I like to learn new technologies and take up challenges.`,
         iwork: 'I work with...',
         Myprojects: 'Some of my projects...',
         seeResume: 'View Resume',
@@ -89,6 +92,9 @@ const messages = {
         myName: 'Houdaifa Amzil',
         Aboutme: "Basé à Tanger 🇲🇦, je suis un développeur web full stack à temps plein avec une courte expérience en freelance sur le développement d'applications mobiles, actuellement intéressé à aiguiser mes compétences et à écrire du code propre."+
                 "\n En dehors de la programmation, j'aime jouer à League of Legends et au football.",
+        Aboutme_Resume: `Passionné depuis toujours par l'informatique, je m'intéresse de près ou de loin à toutes les nouvelles technologies.
+                Mes formations en école m'ont permis d'acquérir les bases nécessaires pour maîtriser n'importe quel langage de programmation, et grâce à mon expérience professionnelle j’ai pu travailler sur plusieurs projets dans différents environnements.
+                Rigoureux et autonome. J’aime apprendre de nouvelles technologies et relever les défis.`,
         iwork: "Je travaille avec...",
         SeeMore: 'Voir Plus',
 

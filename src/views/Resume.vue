@@ -29,10 +29,10 @@
               <div><i class="fas fa-phone-alt text-lg"></i></div>
               <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{$t('PhoneNumber')}}</h4></div>
             </div>
-            <div class="flex justify-around items-center space-x-4">
+            <!-- <div class="flex justify-around items-center space-x-4">
               <div><i class="fas fa-home text-lg"></i></div>
               <div><h4 class="text-sm lg:text-base text-gray-700 lg:leading-loose leading-relaxed tracking-relaxed">{{ $t('FullAdresse') }}</h4></div>
-            </div>
+            </div> -->
           </div>
 
 
@@ -83,7 +83,7 @@
           <!-- Profile -->
           <div class="space-y-4">
             <h1 class="text-xl border-l-8 mb-8 border-green-200">{{$t('Profile')}}</h1>
-            <p class="text-sm lg:text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed lg:leading-loose lg:tracking-relaxed">{{$t('Aboutme')}}</p>
+            <p class="text-sm lg:text-base text-gray-500 dark:text-gray-300 leading-loose tracking-relaxed lg:leading-loose lg:tracking-relaxed">{{$t('Aboutme_Resume')}}</p>
             <hr class="border-gray-200">
           </div>
 
@@ -216,12 +216,12 @@ export default {
   data(){
     return{
       experiences:[
-        {name: 'job', date: '2020-', company: 'Sysbase'},
+        {name: 'job', date: '2020', company: 'Sysbase'},
       ],
       formations:[
-        {name: 'LicenceInfo', date: '2020-2021', school: 'ENSA Tangier'},
-        {name: 'LicenceEco', date: '2016-2020', school: 'Universtiy'},
-        {name: 'ArabCoders', date: '2017-2018', school: 'OMAC'}
+        {name: 'LicenceInfo', date: '2020', school: 'ENSA Tangier'},
+        {name: 'LicenceEco', date: '2018', school: 'Universtiy'},
+        {name: 'ArabCoders', date: '2017', school: 'OMAC'}
       ],
       languages:[
         {name: 'Arabic', level: 'Native'},
