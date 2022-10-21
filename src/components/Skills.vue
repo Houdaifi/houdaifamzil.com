@@ -51,6 +51,7 @@ export default {
                 { name: "Mongo DB", image: require("../assets/mongo_db.png")},
                 { name: "Squelize", image: require("../assets/sequelize.png")},
                 { name: "Redis", image: require("../assets/redis.png")},
+                { name: "GraphQL", image: require("../assets/graphql.png")},
                 { name: "NPM", image: require("../assets/npm.png")},
                 { name: "Webpack", image: require("../assets/webpack.png")},
                 { name: "Git", image: require("../assets/git.png")},
