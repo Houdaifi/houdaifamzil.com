@@ -216,7 +216,8 @@ export default {
   data(){
     return{
       experiences:[
-        {name: 'job', date: '2020', company: 'Sysbase'},
+      {name: 'job', date: '2023-', company: 'Steam-connect'},
+      {name: 'job', date: '2020-2022', company: 'Sysbase'}
       ],
       formations:[
         {name: 'LicenceInfo', date: '2020', school: 'ENSA Tangier'},
