@@ -128,37 +128,37 @@
             <div class="relative pt-8">
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Javascript</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">.NET Core</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Laravel</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="flex justify-start space-x-12 mb-4 items-center">
+                <div class="flex-1">
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">NodeJS</h2>
+                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
+                    <div style="width:70%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
                   <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Vue JS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
+                    <div style="width:85%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
               </div>
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Tailwind CSS</h2>
-                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:90%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
-                  </div>
-                </div>
-                <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Bootstrap</h2>
-                  <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
-                    <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flex justify-start space-x-12 mb-4 items-center">
-                <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Laravel</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">SQL</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -173,13 +173,13 @@
 
               <div class="flex justify-start space-x-12 mb-4 items-center">
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">NodeJS</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">Tailwind CSS</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
                 </div>
                 <div class="flex-1">
-                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">MongoDB</h2>
+                  <h2 class="text-gray-800 text-sm lg:text-base mb-2 dark:text-gray-300">JQuery</h2>
                   <div class="overflow-hidden h-2 mb-4 text-xs  flex space-x-44 rounded bg-gray-200">
                     <div style="width:80%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-turquoise"></div>
                   </div>
@@ -227,8 +227,9 @@ export default {
       languages:[
         {name: 'Arabic', level: 'Native'},
         {name: 'English', level: 'Advanced'},
-        {name: 'French', level: 'Advanced'},
-        {name: 'Spanish', level: 'Intermediate'}
+        {name: 'French', level: 'Intermediate'},
+        {name: 'Spanish', level: 'Intermediate'},
+        {name: 'German', level: 'Basic'}
       ]
     }
   }

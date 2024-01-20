@@ -26,7 +26,7 @@
         
       </div>
       <div class="flex-1">
-        <img class="2xl:w-5/6 w-full slit-in-diagonal-1 rounded-lg" src="../assets/otheer.jpg" alt="Me"/>
+        <img class="2xl:w-5/6 w-full slit-in-diagonal-1 rounded-lg" src="../assets/me.jpg" alt="Me"/>
       </div>
     </section>
 

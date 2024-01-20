@@ -7,9 +7,10 @@ const messages = {
     'en': {
         Hello: "Hi 👋🏼! I am",
         myName: 'Houdaifa Amzil',
-        job: 'Full Stack Developer',
-        Aboutme: "Based in Tangier 🇲🇦, I'm full time full stack web developer with a short freelance experience on Mobile apps development, currently interested on sharpen my skills and write clean code."+
-                "\n Outside of programming i enjoy play League of Legends and Football.",
+        job: 'Software Developer',
+        Aboutme:`Hello 👋! I'm a passionate software developer based in Tangier, Morocco 🇲🇦, specializing in full-stack web development. With a solid foundation in .NET technologies, I bring a wealth of experience to every project.
+                My current focus is on continuous improvement, striving to write clean and efficient code that not only meets but exceeds industry standards. Beyond coding, I find joy in the virtual realms of League of Legends and the exhilarating world of football.
+                Feel free to explore my portfolio and reach out if you have any questions or exciting opportunities!`,
         Aboutme_Resume: `I have always been passionate about computers and I am interested in all new technologies.
                 My training in school allowed me to acquire the necessary bases to master any programming language, and thanks to my professional experience I was able to work on several projects in different environments.
                 Rigorous and autonomous. I like to learn new technologies and take up challenges.`,
@@ -71,6 +72,7 @@ const messages = {
         Native: 'Native',
         Advanced: 'C1',
         Intermediate: 'B2',
+        Basic: 'A2',
 
         Back: 'Back to Homepage',
         NotFound: 'Sorry, The page you are looking for does not exist',
@@ -86,12 +88,13 @@ const messages = {
         seeResume: 'Voir Mon CV',
         Myprojects: 'Certains de mes projets...',
 
-        job: 'Développeur Full Stack',
+        job: 'Software Developer',
 
         Hello: 'Salut 👋🏼! Je suis',
         myName: 'Houdaifa Amzil',
-        Aboutme: "Basé à Tanger 🇲🇦, je suis un développeur web full stack à temps plein avec une courte expérience en freelance sur le développement d'applications mobiles, actuellement intéressé à aiguiser mes compétences et à écrire du code propre."+
-                "\n En dehors de la programmation, j'aime jouer à League of Legends et au football.",
+        Aboutme: `Bonjour 👋 ! Je suis un développeur de logiciels passionné basé à Tanger, au Maroc 🇲🇦, spécialisé dans le développement web full-stack. Avec une base solide dans les technologies .NET, j'apporte une richesse d'expérience à chaque projet.
+            Je me concentre actuellement sur l'amélioration continue, en m'efforçant d'écrire un code propre et efficace qui non seulement répond aux normes de l'industrie, mais les dépasse. Au-delà du codage, je trouve ma joie dans les royaumes virtuels de League of Legends et dans le monde exaltant du football.
+            N'hésitez pas à consulter mon portfolio et à me contacter si vous avez des questions ou des opportunités intéressantes !`,
         Aboutme_Resume: `Passionné depuis toujours par l'informatique, je m'intéresse de près ou de loin à toutes les nouvelles technologies.
                 Mes formations en école m'ont permis d'acquérir les bases nécessaires pour maîtriser n'importe quel langage de programmation, et grâce à mon expérience professionnelle j’ai pu travailler sur plusieurs projets dans différents environnements.
                 Rigoureux et autonome. J’aime apprendre de nouvelles technologies et relever les défis.`,
@@ -159,14 +162,15 @@ const messages = {
         Projects: 'Proyectos ',
         Resume: 'CV',
         Contact: 'Contacto',
-        job: 'Full Stack Developer',
+        job: 'Software Developer',
         Myprojects: 'Algunos de mis proyectos...',
         seeResume: 'Ver CV',
 
         Hello: 'Hola 👋🏼! Soy',
         myName: 'Houdaifa Amzil',
-        Aboutme: "Basado en Tánger 🇲🇦, soy desarrollador web full stack a tiempo completo con una corta experiencia como freelance en el desarrollo de aplicaciones móviles, actualmente interesado en afinar mis habilidades y escribir código limpio."+
-                "\n Fuera de la programación me gusta jugar a League of Legends y al fútbol.",
+        Aboutme: `¡Hola 👋! Soy un apasionado desarrollador de software con sede en Tánger, Marruecos 🇲🇦, especializado en desarrollo web full-stack. Con una base sólida en tecnologías .NET, aporto una gran experiencia a cada proyecto.
+            Mi enfoque actual es la mejora continua, esforzándome por escribir código limpio y eficiente que no sólo cumpla sino que supere los estándares de la industria. Más allá de la programación, me divierto en los reinos virtuales de League of Legends y en el apasionante mundo del fútbol.
+            ¡Siéntase libre de explorar mi cartera y ponerse en contacto si usted tiene alguna pregunta u oportunidades interesantes!`,
         iwork: 'Yo trabajo con...',
         SeeMore: 'Ver más',
 
@@ -222,7 +226,7 @@ const messages = {
         Resume: 'سيرة ذاتية',
         Contact: 'راسل',
         seeResume: 'سيرتي الذاتية',
-        job: 'مطور مواقع ويب',
+        job: 'مطور برامج',
 
         Hello: 'أهلاً 👋🏼!, أنا',
         myName: 'حديفة أمزيل',

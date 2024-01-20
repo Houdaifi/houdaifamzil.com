@@ -9,7 +9,7 @@
                 <div>
                     <a target="_blank" href="https://github.com/Houdaifi/Decathlon-voice">
                         <figure>
-                            <img class="w-full" src="https://camo.githubusercontent.com/4c953b98717ca887a9a6ca90087dee4d409e6a22974551601731e54f88b66636/68747470733a2f2f692e6962622e636f2f4b3931523136372f30303030302d504f5254524149542d30303030302d425552535432303230303931313133313832353333312e6a7067" alt="Decathlon project">
+                            <img loading="lazy" class="w-full" src="../assets/decathlon.jpg" alt="Decathlon project">
                         </figure>
                     </a>
                 </div>
@@ -33,7 +33,7 @@
                 <div class="p-4">
                     <a target="_blank" href="https://github.com/Houdaifi/vue-google-maps-directions">
                         <figure>
-                            <img class="w-full object-contain" src="../assets/salamander.png" alt="Google Maps Destinations project">
+                            <img loading="lazy" class="w-full object-contain" src="../assets/salamander.png" alt="Google Maps Destinations project">
                         </figure>
                     </a>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="p-4">
                     <a target="_blank" href="https://github.com/Houdaifi/vue-google-maps-directions">
                         <figure>
-                            <img class="w-full" src="../assets/salamander.png" alt="Google Maps Destinations project">
+                            <img loading="lazy" class="w-full" src="../assets/salamander.png" alt="Google Maps Destinations project">
                         </figure>
                     </a>
                 </div>
@@ -67,7 +67,7 @@
                 <div>
                     <a target="_blank" href="https://play.google.com/store/apps/details?id=prinado.trivi">
                         <figure>
-                            <img class="w-full" src="../assets/trivi.png" alt="Trivi project">
+                            <img loading="lazy" class="w-full" src="../assets/trivi.png" alt="Trivi project">
                         </figure>
                     </a>
                 </div>
@@ -91,7 +91,7 @@
                 <div class="p-4">
                     <a target="_blank" href="https://github.com/Houdaifi/Trascot">
                         <figure>
-                            <img class="w-full " src="../assets/restauration.png" alt="Restauration project">
+                            <img loading="lazy" class="w-full " src="../assets/restauration.png" alt="Restauration project">
                         </figure>
                     </a>
                 </div>
@@ -115,7 +115,7 @@
                 <div class="p-4">
                     <a target="_blank" href="https://github.com/Houdaifi/Trascot">
                         <figure>
-                            <img class="w-full h-full" src="../assets/restauration.png" alt="Restauration project">
+                            <img loading="lazy" class="w-full h-full" src="../assets/restauration.png" alt="Restauration project">
                         </figure>
                     </a>
                 </div>
@@ -126,7 +126,7 @@
                 <div>
                     <a target="_blank" href="https://tragefer.netlify.app/#/">
                         <figure>
-                            <img class="w-full" src="../assets/Tragefer.png" alt="Tragefer">
+                            <img loading="lazy" class="w-full" src="../assets/Tragefer.png" alt="Tragefer">
                         </figure>
                     </a>
                 </div>
@@ -150,7 +150,7 @@
                 <div class="p-4">
                     <a target="_blank" href="http://adspooltd.com">
                         <figure>
-                            <img class="w-full " src="../assets/AdspoolLTD.png" alt="Adspool LTD">
+                            <img loading="lazy" class="w-full " src="../assets/AdspoolLTD.png" alt="Adspool LTD">
                         </figure>
                     </a>
                 </div>
@@ -174,7 +174,7 @@
                 <div class="p-4">
                     <a target="_blank" href="http://adspooltd.com">
                         <figure>
-                            <img class="w-full h-full" src="../assets/AdspoolLTD.png" alt="Adspool LTD">
+                            <img loading="lazy" class="w-full h-full" src="../assets/AdspoolLTD.png" alt="Adspool LTD">
                         </figure>
                     </a>
                 </div>
